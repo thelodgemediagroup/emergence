@@ -1,0 +1,38 @@
+#spotlight {width:100%;}
+#slider1 .article-image.review {width:50%;}
+#footer {width:100%;}
+#latest {
+	width:100%;
+}
+#latest .header {
+	left:0px;
+}
+.copyright {float:left;}
+#page-content {width:100%;}
+#comments {width:100%;}
+.cat-bar .cat-name h2 {font-size:1.5em;}
+#tabbed-latest-reviews .tabdiv li a {float:left;border-top:0px;border-bottom:0px;}
+#tabbed-latest-reviews .tabdiv li.last a {float:none;}
+#tabbed-latest-reviews .tabdiv li {display:block;width:100%;clear:both;border-top:1px solid #FFF;border-bottom:1px solid #CCC;}
+.tabdiv.reviews li a {float:left;border-top:0px;border-bottom:0px;}
+.tabdiv.reviews li.last a {float:none;}
+.tabdiv.reviews li {display:block;width:100%;clear:both;border-top:1px solid #FFF;border-bottom:1px solid #CCC;}
+.feedburner {position:relative;top:-26px;}
+.authorbox-wrapper {float:left;}
+.authorbox {width:90%;}
+#page-content .sharebox.social {width:155px;}
+.feed-vertical-wrapper {width:100%;}
+.latest-wrapper {width:100%;}
+.left-panel #slider1-wrapper ul {padding-bottom:5px !important;}
+#spotlight .right-panel {margin-bottom:0px !important;}
+.demo-plus {
+	position:relative;
+	top:-20px;
+	left:5px;
+}
+#main-menu ul li a {	
+	padding-bottom:19px;
+}
+#footer .tabdiv li {
+	border:0px;	
+}

@@ -1,0 +1,7 @@
+Continuum
+Created: 4/20/2011
+By: Outer Spice Web Company
+Contact Info: www.outerspiceweb.com
+
+Please refer to the documentation folder for the Continuum user guide (documentation/index.html)
+

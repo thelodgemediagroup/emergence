@@ -1,0 +1,3249 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Continuum 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-28 12:16-0500\n"
+"PO-Revision-Date: 2012-06-28 12:17-0500\n"
+"Last-Translator: Brian McCulloh <brianmcculloh@gmail.com>\n"
+"Language-Team: Outer Spice Web Company <bmac@outerspiceweb.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:31
+msgid "404 Error"
+msgstr ""
+
+#: ../404.php:37
+msgid "We could not find the page you were trying to access. It may have been moved or deleted. Please try searching our site or use the menu above to navigate our site."
+msgstr ""
+
+#: ../404.php:59
+#: ../footer.php:32
+#: ../footer.php:52
+#: ../page.php:212
+msgid " About Continuum "
+msgstr ""
+
+#: ../404.php:72
+#: ../footer.php:33
+#: ../footer.php:53
+#: ../page.php:225
+msgid "This is a custom sidebar. Continuum gives you lots of custom sidebar possibilities. You can use the Continuum Theme Options page to specify which pages have a unique sidebar. Or, you can use the same sidebar for all of your pages using the Sidebar Default widget panel. If you do specify that you want a unique sidebar for an area of your site, such as the Search page, you can use the corresponding built-in Sidebar Search widget panel."
+msgstr ""
+
+#: ../404.php:76
+#: ../footer.php:37
+#: ../footer.php:57
+#: ../page.php:229
+msgid "In fact, Continuum comes standard with 19 unique sidebars. Wow, we're starting to sound like a car commercial, so we'll add that you don't have to use all of them if you don't want. Continuum harnesses the power of absolute customization while at the same time having a quality of meekness: you can forget about all the settings and get yourself up and running in no time flat."
+msgstr ""
+
+#: ../comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:27
+msgid "Leave a comment"
+msgstr ""
+
+#: ../comments.php:48
+#: ../comments.php:75
+msgid "&laquo;"
+msgstr ""
+
+#: ../comments.php:49
+#: ../comments.php:76
+msgid "&raquo;"
+msgstr ""
+
+#: ../comments.php:98
+msgid "Be the first to comment!"
+msgstr ""
+
+#: ../comments.php:101
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:112
+msgid "You must be logged in to post a comment."
+msgstr ""
+
+#: ../footer.php:72
+msgid "Flickr Photos"
+msgstr ""
+
+#: ../footer.php:103
+msgid "View more photos"
+msgstr ""
+
+#: ../footer.php:125
+msgid "Copyright"
+msgstr ""
+
+#: ../footer.php:125
+msgid "All Rights Reserved."
+msgstr ""
+
+#: ../footer.php:133
+msgid "Continuum Theme by "
+msgstr ""
+
+#: ../footer.php:133
+msgid "Outer Spice Web Company"
+msgstr ""
+
+#: ../footer.php:133
+msgid "Fonts used: "
+msgstr ""
+
+#: ../footer.php:133
+msgid "Gentesque"
+msgstr ""
+
+#: ../footer.php:133
+msgid "Adelle"
+msgstr ""
+
+#: ../footer.php:133
+msgid "Icons by "
+msgstr ""
+
+#: ../footer.php:133
+msgid "MediaLoot"
+msgstr ""
+
+#: ../footer.php:133
+msgid "Function"
+msgstr ""
+
+#: ../header.php:70
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../header.php:263
+msgid "search"
+msgstr ""
+
+#: ../header.php:379
+msgid "Random Article"
+msgstr ""
+
+#: ../single-con_book_reviews.php:204
+msgid "Book Overview"
+msgstr ""
+
+#: ../single-con_book_reviews.php:206
+#: ../single-con_game_reviews.php:214
+#: ../single-con_movie_reviews.php:214
+#: ../single-con_music_reviews.php:214
+msgid "Genre: "
+msgstr ""
+
+#: ../single-con_book_reviews.php:210
+msgid "Publisher: "
+msgstr ""
+
+#: ../single-con_book_reviews.php:214
+msgid "Author: "
+msgstr ""
+
+#: ../single-con_book_reviews.php:250
+#: ../single-con_game_reviews.php:250
+#: ../single-con_movie_reviews.php:250
+#: ../single-con_music_reviews.php:250
+#: ../single-con_product_reviews.php:250
+msgid "Reviewed by:"
+msgstr ""
+
+#: ../single-con_book_reviews.php:262
+#: ../single-con_game_reviews.php:262
+#: ../single-con_movie_reviews.php:262
+#: ../single-con_music_reviews.php:262
+#: ../single-con_product_reviews.php:262
+msgid "Review"
+msgstr ""
+
+#: ../single-con_book_reviews.php:271
+#: ../single-con_game_reviews.php:271
+#: ../single-con_movie_reviews.php:271
+#: ../single-con_music_reviews.php:271
+#: ../single-con_product_reviews.php:271
+msgid "Pages:"
+msgstr ""
+
+#: ../single-con_book_reviews.php:276
+#: ../single-con_game_reviews.php:276
+#: ../single-con_movie_reviews.php:276
+#: ../single-con_music_reviews.php:276
+#: ../single-con_product_reviews.php:276
+msgid "Next >"
+msgstr ""
+
+#: ../single-con_book_reviews.php:277
+#: ../single-con_game_reviews.php:277
+#: ../single-con_movie_reviews.php:277
+#: ../single-con_music_reviews.php:277
+#: ../single-con_product_reviews.php:277
+msgid "< Previous"
+msgstr ""
+
+#: ../single-con_book_reviews.php:291
+#: ../single-con_game_reviews.php:291
+#: ../single-con_movie_reviews.php:291
+#: ../single-con_music_reviews.php:291
+#: ../single-con_product_reviews.php:291
+msgid "About the Author"
+msgstr ""
+
+#: ../single-con_book_reviews.php:308
+#: ../single-con_game_reviews.php:308
+#: ../single-con_movie_reviews.php:308
+#: ../single-con_music_reviews.php:308
+#: ../single-con_product_reviews.php:308
+msgid "Website"
+msgstr ""
+
+#: ../single-con_book_reviews.php:311
+#: ../single-con_game_reviews.php:311
+#: ../single-con_movie_reviews.php:311
+#: ../single-con_music_reviews.php:311
+#: ../single-con_product_reviews.php:311
+msgid "Twitter"
+msgstr ""
+
+#: ../single-con_book_reviews.php:314
+#: ../single-con_game_reviews.php:314
+#: ../single-con_movie_reviews.php:314
+#: ../single-con_music_reviews.php:314
+#: ../single-con_product_reviews.php:314
+msgid "Facebook"
+msgstr ""
+
+#: ../single-con_book_reviews.php:317
+#: ../single-con_game_reviews.php:317
+#: ../single-con_movie_reviews.php:317
+#: ../single-con_music_reviews.php:317
+#: ../single-con_product_reviews.php:317
+msgid "LinkedIn"
+msgstr ""
+
+#: ../single-con_book_reviews.php:320
+#: ../single-con_game_reviews.php:320
+#: ../single-con_movie_reviews.php:320
+#: ../single-con_music_reviews.php:320
+#: ../single-con_product_reviews.php:320
+msgid "Digg"
+msgstr ""
+
+#: ../single-con_book_reviews.php:323
+#: ../single-con_game_reviews.php:323
+#: ../single-con_movie_reviews.php:323
+#: ../single-con_music_reviews.php:323
+#: ../single-con_product_reviews.php:323
+msgid "Flickr"
+msgstr ""
+
+#: ../single-con_book_reviews.php:326
+#: ../single-con_game_reviews.php:326
+#: ../single-con_movie_reviews.php:326
+#: ../single-con_music_reviews.php:326
+#: ../single-con_product_reviews.php:326
+msgid "YouTube"
+msgstr ""
+
+#: ../single-con_book_reviews.php:333
+#: ../single-con_game_reviews.php:333
+#: ../single-con_movie_reviews.php:333
+#: ../single-con_music_reviews.php:333
+#: ../single-con_product_reviews.php:333
+msgid "More articles by"
+msgstr ""
+
+#: ../single-con_book_reviews.php:352
+#: ../single-con_game_reviews.php:352
+#: ../single-con_movie_reviews.php:352
+#: ../single-con_music_reviews.php:352
+#: ../single-con_product_reviews.php:352
+msgid "View Comments"
+msgstr ""
+
+#: ../single-con_book_reviews.php:354
+#: ../single-con_game_reviews.php:354
+#: ../single-con_movie_reviews.php:354
+#: ../single-con_music_reviews.php:354
+#: ../single-con_product_reviews.php:354
+msgid "0 comments"
+msgstr ""
+
+#: ../single-con_book_reviews.php:354
+#: ../single-con_game_reviews.php:354
+#: ../single-con_movie_reviews.php:354
+#: ../single-con_music_reviews.php:354
+#: ../single-con_product_reviews.php:354
+msgid "1 comment"
+msgstr ""
+
+#: ../single-con_book_reviews.php:354
+#: ../single-con_game_reviews.php:354
+#: ../single-con_movie_reviews.php:354
+#: ../single-con_music_reviews.php:354
+#: ../single-con_product_reviews.php:354
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: ../single-con_game_reviews.php:204
+msgid "Game Overview"
+msgstr ""
+
+#: ../single-con_game_reviews.php:206
+msgid "Platform: "
+msgstr ""
+
+#: ../single-con_game_reviews.php:210
+msgid "Developer: "
+msgstr ""
+
+#: ../single-con_movie_reviews.php:204
+msgid "Movie Overview"
+msgstr ""
+
+#: ../single-con_movie_reviews.php:206
+msgid "Director: "
+msgstr ""
+
+#: ../single-con_movie_reviews.php:210
+msgid "Actors: "
+msgstr ""
+
+#: ../single-con_music_reviews.php:204
+msgid "Music Overview"
+msgstr ""
+
+#: ../single-con_music_reviews.php:206
+msgid "Artist: "
+msgstr ""
+
+#: ../single-con_music_reviews.php:210
+msgid "Review Type: "
+msgstr ""
+
+#: ../single-con_product_reviews.php:204
+msgid "Product Overview"
+msgstr ""
+
+#: ../single-con_product_reviews.php:206
+msgid "Price: "
+msgstr ""
+
+#: ../single-con_product_reviews.php:210
+msgid "Brand: "
+msgstr ""
+
+#: ../single-con_product_reviews.php:214
+msgid "Categories: "
+msgstr ""
+
+#: ../single.php:198
+msgid "Written by:"
+msgstr ""
+
+#: ../template-authors.php:36
+msgid "Contributors"
+msgstr ""
+
+#: ../template-authors.php:94
+msgid "Latest: "
+msgstr ""
+
+#: ../functions/custom.php:75
+msgid "Top Menu"
+msgstr ""
+
+#: ../functions/custom.php:75
+msgid "Main Menu"
+msgstr ""
+
+#: ../functions/custom.php:75
+msgid "Small Menu"
+msgstr ""
+
+#: ../functions/custom.php:383
+msgid "Page "
+msgstr ""
+
+#: ../functions/custom.php:383
+msgid " of "
+msgstr ""
+
+#: ../functions/custom.php:384
+msgid "First"
+msgstr ""
+
+#: ../functions/custom.php:385
+msgid "Previous"
+msgstr ""
+
+#: ../functions/custom.php:395
+msgid "Next"
+msgstr ""
+
+#: ../functions/custom.php:396
+msgid "last"
+msgstr ""
+
+#: ../functions/custom.php:424
+msgid "Connect Information"
+msgstr ""
+
+#: ../functions/custom.php:432
+msgid "Please enter your Twitter username."
+msgstr ""
+
+#: ../functions/custom.php:440
+msgid "Please enter your Facebook username/alias."
+msgstr ""
+
+#: ../functions/custom.php:448
+msgid "Please enter your LinkedIn username."
+msgstr ""
+
+#: ../functions/custom.php:456
+msgid "Please enter your Digg username."
+msgstr ""
+
+#: ../functions/custom.php:464
+msgid "Please enter your flickr username."
+msgstr ""
+
+#: ../functions/custom.php:472
+msgid "Please enter your YouTube username."
+msgstr ""
+
+#: ../functions/custom.php:499
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../functions/custom.php:506
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions/custom.php:529
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../functions/custom.php:529
+msgid "(Edit)"
+msgstr ""
+
+#: ../functions/meta-boxes.php:7
+msgid "Continuum Custom Field Guide - Pages"
+msgstr ""
+
+#: ../functions/meta-boxes.php:9
+msgid "Continuum Custom Field Guide - Posts"
+msgstr ""
+
+#: ../functions/meta-boxes.php:11
+#: ../functions/meta-boxes.php:12
+#: ../functions/meta-boxes.php:13
+#: ../functions/meta-boxes.php:14
+#: ../functions/meta-boxes.php:15
+msgid "Continuum Custom Field Guide - Reviews"
+msgstr ""
+
+#: ../functions/meta-boxes.php:26
+msgid "This is a list of all possible custom field values that you can add to an individual page to overwrite the main settings on the Continuum Theme Options page."
+msgstr ""
+
+#: ../functions/meta-boxes.php:28
+#: ../functions/meta-boxes.php:96
+#: ../functions/meta-boxes.php:155
+msgid "Name"
+msgstr ""
+
+#: ../functions/meta-boxes.php:28
+#: ../functions/meta-boxes.php:96
+#: ../functions/meta-boxes.php:155
+msgid "Possible Values"
+msgstr ""
+
+#: ../functions/meta-boxes.php:28
+#: ../functions/meta-boxes.php:96
+#: ../functions/meta-boxes.php:155
+msgid "Notes"
+msgstr ""
+
+#: ../functions/meta-boxes.php:31
+#: ../functions/meta-boxes.php:99
+#: ../functions/meta-boxes.php:158
+msgid "the slider above the header"
+msgstr ""
+
+#: ../functions/meta-boxes.php:37
+#: ../functions/meta-boxes.php:108
+#: ../functions/meta-boxes.php:161
+msgid "the panel below the featured image"
+msgstr ""
+
+#: ../functions/meta-boxes.php:40
+#: ../functions/meta-boxes.php:114
+#: ../functions/meta-boxes.php:179
+msgid "the latest posts panel below the page content"
+msgstr ""
+
+#: ../functions/meta-boxes.php:43
+#: ../functions/meta-boxes.php:117
+#: ../functions/meta-boxes.php:182
+msgid "the category-based latest posts panel above the footer"
+msgstr ""
+
+#: ../functions/meta-boxes.php:46
+msgid "only applies to pages with the Home Layout template"
+msgstr ""
+
+#: ../functions/meta-boxes.php:49
+msgid "the widget panel to the right of the slider which displays recent reactions by default (only applies to pages with the Home Layout template)"
+msgstr ""
+
+#: ../functions/meta-boxes.php:52
+msgid "the layout of the feed (only applies to pages with the Home Layout template that are not the front page)"
+msgstr ""
+
+#: ../functions/meta-boxes.php:55
+msgid "header text to use for the feed (only applies to pages with the Home Layout template that are not the front page)"
+msgstr ""
+
+#: ../functions/meta-boxes.php:58
+msgid "number of posts to display on each feed page - feeds are paginated (only applies to pages with the Home Layout template that are not the front page)"
+msgstr ""
+
+#: ../functions/meta-boxes.php:61
+msgid "number of total ads to display in the feed (only applies to pages with the Home Layout template that are not the front page)"
+msgstr ""
+
+#: ../functions/meta-boxes.php:64
+msgid "ads appear every nth post, where \"n\" is the increment (only applies to pages with the Home Layout template that are not the front page)"
+msgstr ""
+
+#: ../functions/meta-boxes.php:67
+msgid "number of posts to display before the first ad (only applies to pages with the Home Layout template that are not the front page)"
+msgstr ""
+
+#: ../functions/meta-boxes.php:70
+msgid "if using layout D, specify header text (only applies to pages with the Home Layout template that are not the front page)"
+msgstr ""
+
+#: ../functions/meta-boxes.php:73
+msgid "display the latest panel above or below the feed (only applies to pages with the Home Layout template)"
+msgstr ""
+
+#: ../functions/meta-boxes.php:94
+msgid "This is a list of all possible custom field values that you can add to an individual post to overwrite the main settings on the Continuum Theme Options page."
+msgstr ""
+
+#: ../functions/meta-boxes.php:105
+msgid "the panel below the post title with the author info &amp; tags"
+msgstr ""
+
+#: ../functions/meta-boxes.php:111
+#: ../functions/meta-boxes.php:164
+msgid "the panel below the post content with the author bio"
+msgstr ""
+
+#: ../functions/meta-boxes.php:120
+#: ../functions/meta-boxes.php:185
+msgid "header text to use for the feed"
+msgstr ""
+
+#: ../functions/meta-boxes.php:123
+#: ../functions/meta-boxes.php:188
+msgid "number of posts to display on each feed page - feeds are paginated"
+msgstr ""
+
+#: ../functions/meta-boxes.php:126
+#: ../functions/meta-boxes.php:191
+msgid "number of total ads to display in the feed"
+msgstr ""
+
+#: ../functions/meta-boxes.php:129
+#: ../functions/meta-boxes.php:194
+msgid "ads appear every nth post, where \"n\" is the increment"
+msgstr ""
+
+#: ../functions/meta-boxes.php:132
+#: ../functions/meta-boxes.php:197
+msgid "number of posts to display before the first ad"
+msgstr ""
+
+#: ../functions/meta-boxes.php:153
+msgid "This is a list of all possible custom field values that you can add to an individual review to overwrite the main settings on the Continuum Theme Options page."
+msgstr ""
+
+#: ../functions/meta-boxes.php:167
+msgid "displays an award badge in the header of a review and displays the text entered as the award name"
+msgstr ""
+
+#: ../functions/meta-boxes.php:170
+msgid "short summary of the positives of this review"
+msgstr ""
+
+#: ../functions/meta-boxes.php:173
+msgid "short summary of the negatives of this review"
+msgstr ""
+
+#: ../functions/meta-boxes.php:176
+msgid "the rating for this review out of 5 - <b>add \"hearts\" after the number to display hearts instead of stars for the rating</b> (e.g. \"3.5 hearts\" instead of \"3.5 stars\") you can also just use a number for stars (i.e. \"3.5\" will display stars)"
+msgstr ""
+
+#: ../functions/post-types.php:26
+msgid "Movie Reviews"
+msgstr ""
+
+#: ../functions/post-types.php:27
+msgid "Movie Review"
+msgstr ""
+
+#: ../functions/post-types.php:28
+#: ../functions/post-types.php:104
+#: ../functions/post-types.php:181
+#: ../functions/post-types.php:257
+#: ../functions/post-types.php:333
+msgid "Add new review"
+msgstr ""
+
+#: ../functions/post-types.php:29
+#: ../functions/post-types.php:105
+#: ../functions/post-types.php:182
+#: ../functions/post-types.php:258
+#: ../functions/post-types.php:334
+msgid "Edit review"
+msgstr ""
+
+#: ../functions/post-types.php:30
+#: ../functions/post-types.php:106
+#: ../functions/post-types.php:183
+#: ../functions/post-types.php:259
+#: ../functions/post-types.php:335
+msgid "New review"
+msgstr ""
+
+#: ../functions/post-types.php:31
+#: ../functions/post-types.php:107
+#: ../functions/post-types.php:184
+#: ../functions/post-types.php:260
+#: ../functions/post-types.php:336
+msgid "View review"
+msgstr ""
+
+#: ../functions/post-types.php:32
+#: ../functions/post-types.php:108
+#: ../functions/post-types.php:185
+#: ../functions/post-types.php:261
+#: ../functions/post-types.php:337
+msgid "Search reviews"
+msgstr ""
+
+#: ../functions/post-types.php:33
+#: ../functions/post-types.php:109
+#: ../functions/post-types.php:186
+#: ../functions/post-types.php:262
+#: ../functions/post-types.php:338
+msgid "No reviews found"
+msgstr ""
+
+#: ../functions/post-types.php:34
+#: ../functions/post-types.php:110
+#: ../functions/post-types.php:187
+#: ../functions/post-types.php:263
+#: ../functions/post-types.php:339
+msgid "No reviews found in Trash"
+msgstr ""
+
+#: ../functions/post-types.php:102
+msgid "Music Reviews"
+msgstr ""
+
+#: ../functions/post-types.php:103
+msgid "Music Review"
+msgstr ""
+
+#: ../functions/post-types.php:179
+msgid "Game Reviews"
+msgstr ""
+
+#: ../functions/post-types.php:180
+msgid "Video Game Review"
+msgstr ""
+
+#: ../functions/post-types.php:255
+msgid "Book Reviews"
+msgstr ""
+
+#: ../functions/post-types.php:256
+msgid "Book Review"
+msgstr ""
+
+#: ../functions/post-types.php:331
+msgid "Prod. Reviews"
+msgstr ""
+
+#: ../functions/post-types.php:332
+msgid "Product Review"
+msgstr ""
+
+#: ../functions/theme-options.php:272
+#: ../functions/theme-options.php.bak.php:271
+msgid " Theme Options"
+msgstr ""
+
+#: ../functions/theme-options.php:274
+#: ../functions/theme-options.php.bak.php:273
+msgid "Getting Started"
+msgstr ""
+
+#: ../functions/theme-options.php:274
+#: ../functions/theme-options.php.bak.php:273
+msgid "Front Page"
+msgstr ""
+
+#: ../functions/theme-options.php:274
+#: ../functions/theme-options.php.bak.php:273
+msgid "Page Layouts"
+msgstr ""
+
+#: ../functions/theme-options.php:274
+#: ../functions/theme-options.php:2101
+#: ../functions/theme-options.php.bak.php:273
+#: ../functions/theme-options.php.bak.php:2062
+msgid "The Feed"
+msgstr ""
+
+#: ../functions/theme-options.php:274
+#: ../functions/theme-options.php.bak.php:273
+msgid "Reviews"
+msgstr ""
+
+#: ../functions/theme-options.php:274
+#: ../functions/theme-options.php.bak.php:273
+msgid "Ads"
+msgstr ""
+
+#: ../functions/theme-options.php:274
+#: ../functions/theme-options.php.bak.php:273
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../functions/theme-options.php:343
+#: ../functions/theme-options.php.bak.php:342
+msgid "Introduction &amp; How To Get Help"
+msgstr ""
+
+#: ../functions/theme-options.php:346
+#: ../functions/theme-options.php.bak.php:345
+msgid "The Continuum Theme Options page is separated into tabs to make it easier to manage the abundance of options (there are over 190 of them!). If you want to skip all this and just get your site working, you should be able to get by with changing a couple of the options on the Miscellaneous tab, and you are in business. The rest of these settings exist to give you the option of customizing your website to whatever level you want. Some of the tabs are further categorized by toggle bars for your convenience. Just click the toggle bar title to expand the section and manage the options, and click it again to collapse it. The options are layed out in an intuitive, easy-to-use format that makes it easy for you to find the setting you want to adjust. There is a short description next to each option, so if something seems confusing at first, just look at the description and you will probably figure it out. If at any time you do get stuck and cannot figure out how to make Continuum do what you want it to do, you have four options at your disposal:"
+msgstr ""
+
+#: ../functions/theme-options.php:349
+#: ../functions/theme-options.php.bak.php:348
+msgid "Refer to the"
+msgstr ""
+
+#: ../functions/theme-options.php:349
+#: ../functions/theme-options.php.bak.php:348
+msgid "help documentation"
+msgstr ""
+
+#: ../functions/theme-options.php:349
+#: ../functions/theme-options.php.bak.php:348
+msgid "that is inside of the Continuum folder that you downloaded from Theme Forest, as it contains further detailed information on using Continuum."
+msgstr ""
+
+#: ../functions/theme-options.php:350
+#: ../functions/theme-options.php.bak.php:349
+msgid "Refer to the Continuum FAQ page at Theme Forest. At the time of this writing, the link to the FAQs are next to the link to the item comments on the Continuum item details page."
+msgstr ""
+
+#: ../functions/theme-options.php:351
+msgid "Search for help on the support forum, or post a new topic with your question:"
+msgstr ""
+
+#: ../functions/theme-options.php:351
+msgid "Support Forum"
+msgstr ""
+
+#: ../functions/theme-options.php:352
+#: ../functions/theme-options.php.bak.php:351
+msgid "Contact the author of Continuum via a "
+msgstr ""
+
+#: ../functions/theme-options.php:352
+#: ../functions/theme-options.php.bak.php:351
+msgid "Theme Forest message"
+msgstr ""
+
+#: ../functions/theme-options.php:355
+#: ../functions/theme-options.php.bak.php:354
+msgid "We know what it is like to be frustrated while trying to use a theme, and we want you to know that we are here to help. We want you to fully enjoy all the benefits of Continuum that we took months to build!"
+msgstr ""
+
+#: ../functions/theme-options.php:358
+#: ../functions/theme-options.php.bak.php:357
+msgid "Explanation of the Theme Options Tabs"
+msgstr ""
+
+#: ../functions/theme-options.php:362
+#: ../functions/theme-options.php.bak.php:361
+msgid "FRONT PAGE tab"
+msgstr ""
+
+#: ../functions/theme-options.php:362
+#: ../functions/theme-options.php.bak.php:361
+msgid "these settings let you adjust the layout and style of the front page of your site. Whether you are using \"Your latest posts\" as the \"Front page displays\" option on the Settings >> Reading Settings page, or you have selected a specific page as your front page, this is where you manage the settings. Keep in mind, this tab deals with the layout of the elements specific to the front page. If you are wondering where things like background, logo, ad placement, \"feed\" layout, and \"breaking\" slider settings are, you will find those on other tabs, such as the Ads tab or the Miscellaneous tab, since these are elements that appear on more pages than just the front page."
+msgstr ""
+
+#: ../functions/theme-options.php:368
+#: ../functions/theme-options.php.bak.php:367
+msgid "PAGE LAYOUTS tab"
+msgstr ""
+
+#: ../functions/theme-options.php:368
+#: ../functions/theme-options.php.bak.php:367
+msgid "these settings are divided into four categories:"
+msgstr ""
+
+#: ../functions/theme-options.php:371
+#: ../functions/theme-options.php.bak.php:370
+msgid "Single Posts - when you click on a post title or thumbnail and view the full post details, you are viewing a \"single post\""
+msgstr ""
+
+#: ../functions/theme-options.php:372
+#: ../functions/theme-options.php.bak.php:371
+msgid "Archive Pages - when you click a link in your sidebar calendar widget, or you are viewing all of the posts from a specific tag or author, you are viewing an \"archive page\""
+msgstr ""
+
+#: ../functions/theme-options.php:373
+#: ../functions/theme-options.php.bak.php:372
+msgid "Category Archive Pages - when you click a category in one of your menus, or the category of a post in any of the post listings, you are viewing a \"category archive page\""
+msgstr ""
+
+#: ../functions/theme-options.php:374
+#: ../functions/theme-options.php.bak.php:373
+msgid "Other Pages - when you are viewing a page other than the ones mentioned above, such as the search results page, the authors page, or a page you create in Wordpress, you are viewing an \"other page\". Pretty technical, we know."
+msgstr ""
+
+#: ../functions/theme-options.php:381
+#: ../functions/theme-options.php.bak.php:380
+msgid "THE FEED tab"
+msgstr ""
+
+#: ../functions/theme-options.php:381
+#: ../functions/theme-options.php.bak.php:380
+msgid "Continuum uses a \"Feed\" framework to display your latest posts. It is a very simple concept: it is just your latest posts, displayed in a list down the page, in one of four possible layouts. \"The Feed\" can be sorted via the links in the \"feed bar\", which displays above your latest posts, and it can optionally be displayed not only on your front page, but on every page of your site below the page or post content. It is a way of presenting as much of your content as you can to your readers in an attempt to get them to stay on your site as long possible, viewing as many pages as possible. Because there are different kinds of pages in Wordpress - the front page, blog pages, regular pages, archive pages, etc. - there are slightly different settings for each kind of page."
+msgstr ""
+
+#: ../functions/theme-options.php:387
+#: ../functions/theme-options.php.bak.php:386
+msgid "REVIEWS tab"
+msgstr ""
+
+#: ../functions/theme-options.php:387
+#: ../functions/theme-options.php.bak.php:386
+msgid "Continuum gives you five custom post types for reviewing Movies, Music, Video Games, Books, and Products. You can enable/disable these review types, as well as set the layout of the review listings and adjust the different elements that appear on single review pages, using the General Settings toggle panel on the Reviews tab. The Rating Labels and Review Labels toggle panels let you further customize how you display your reviews on your site."
+msgstr ""
+
+#: ../functions/theme-options.php:393
+#: ../functions/theme-options.php.bak.php:392
+msgid "ADS tab"
+msgstr ""
+
+#: ../functions/theme-options.php:393
+#: ../functions/theme-options.php.bak.php:392
+msgid "Continuum has a built-in advertising framework that lets you specify the ads that display throughout your pages. You can display different ads on different types of pages, which are divided out between the various toggle panels on the Ads tab. Continuum is even able to inject ads into your \"Feed\" (note: this is the Continuum feed framework which displays on your website, which is not to be confused with your RSS feed), and lets you specify the frequency and amount of ads that are displayed."
+msgstr ""
+
+#: ../functions/theme-options.php:399
+#: ../functions/theme-options.php.bak.php:398
+msgid "MISCELLANEOUS tab"
+msgstr ""
+
+#: ../functions/theme-options.php:399
+#: ../functions/theme-options.php.bak.php:398
+msgid "there are some elements that apply to all of your pages, such as the site background, logo, \"breaking\" panel, \"latest\" panel, and more. All of these site-wide settings are found on the Miscellanous tab."
+msgstr ""
+
+#: ../functions/theme-options.php:405
+#: ../functions/theme-options.php.bak.php:404
+msgid "*You can override settings denoted in blue on individual posts &amp; pages using custom fields. See the Continuum Custom Field Guide located on all page &amp; post edit screens at the bottom of the page."
+msgstr ""
+
+#: ../functions/theme-options.php:429
+#: ../functions/theme-options.php:621
+#: ../functions/theme-options.php:987
+#: ../functions/theme-options.php:1152
+#: ../functions/theme-options.php:1592
+#: ../functions/theme-options.php:2422
+#: ../functions/theme-options.php.bak.php:420
+#: ../functions/theme-options.php.bak.php:612
+#: ../functions/theme-options.php.bak.php:979
+#: ../functions/theme-options.php.bak.php:1144
+#: ../functions/theme-options.php.bak.php:1553
+#: ../functions/theme-options.php.bak.php:2383
+msgid "Options saved"
+msgstr ""
+
+#: ../functions/theme-options.php:445
+#: ../functions/theme-options.php.bak.php:436
+msgid "Spotlight Slider"
+msgstr ""
+
+#: ../functions/theme-options.php:449
+#: ../functions/theme-options.php.bak.php:440
+msgid "Display Spotlight Slider"
+msgstr ""
+
+#: ../functions/theme-options.php:452
+#: ../functions/theme-options.php.bak.php:443
+msgid "Display the Spotlight Slider area"
+msgstr ""
+
+#: ../functions/theme-options.php:456
+#: ../functions/theme-options.php:577
+#: ../functions/theme-options.php.bak.php:447
+#: ../functions/theme-options.php.bak.php:568
+msgid "Layout"
+msgstr ""
+
+#: ../functions/theme-options.php:488
+#: ../functions/theme-options.php.bak.php:479
+msgid "Slide Duration"
+msgstr ""
+
+#: ../functions/theme-options.php:497
+#: ../functions/theme-options.php.bak.php:488
+msgid "Number of seconds each slide will display before rotating"
+msgstr ""
+
+#: ../functions/theme-options.php:501
+#: ../functions/theme-options.php.bak.php:492
+msgid "Number of Slides"
+msgstr ""
+
+#: ../functions/theme-options.php:510
+#: ../functions/theme-options.php.bak.php:501
+msgid "Number of slides to rotate through. Only affects slider layout B."
+msgstr ""
+
+#: ../functions/theme-options.php:514
+#: ../functions/theme-options.php.bak.php:505
+msgid "Spotlight Tag"
+msgstr ""
+
+#: ../functions/theme-options.php:517
+#: ../functions/theme-options.php.bak.php:508
+msgid "Name of the tag that you want to use to mark posts as Spotlight"
+msgstr ""
+
+#: ../functions/theme-options.php:521
+#: ../functions/theme-options.php.bak.php:512
+msgid "Display Header"
+msgstr ""
+
+#: ../functions/theme-options.php:524
+#: ../functions/theme-options.php.bak.php:515
+msgid "Display the Spotlight header"
+msgstr ""
+
+#: ../functions/theme-options.php:528
+#: ../functions/theme-options.php.bak.php:519
+msgid "Header Text"
+msgstr ""
+
+#: ../functions/theme-options.php:531
+#: ../functions/theme-options.php.bak.php:522
+msgid "Text to display as the Spotlight Slider header"
+msgstr ""
+
+#: ../functions/theme-options.php:535
+#: ../functions/theme-options.php.bak.php:526
+msgid "Display Widgets"
+msgstr ""
+
+#: ../functions/theme-options.php:538
+#: ../functions/theme-options.php.bak.php:529
+msgid "Display the Spotlight widget area to the right of the Spotlight slider"
+msgstr ""
+
+#: ../functions/theme-options.php:542
+#: ../functions/theme-options.php.bak.php:533
+msgid "Widget Header Text"
+msgstr ""
+
+#: ../functions/theme-options.php:545
+#: ../functions/theme-options.php.bak.php:536
+msgid "Text to display as the Spotlight Widgets header"
+msgstr ""
+
+#: ../functions/theme-options.php:549
+#: ../functions/theme-options.php.bak.php:540
+msgid "Number of Recent Reactions"
+msgstr ""
+
+#: ../functions/theme-options.php:558
+#: ../functions/theme-options.php.bak.php:549
+msgid "Number of recent reactions to display in the scroller. Select 4 to disable scrolling."
+msgstr ""
+
+#: ../functions/theme-options.php:562
+#: ../functions/theme-options.php.bak.php:553
+msgid "Recent Reactions Speed"
+msgstr ""
+
+#: ../functions/theme-options.php:571
+#: ../functions/theme-options.php.bak.php:562
+msgid "Speed of the vertically-scrolling Recent Reactions comment scroller"
+msgstr ""
+
+#: ../functions/theme-options.php:581
+#: ../functions/theme-options.php:705
+#: ../functions/theme-options.php:789
+#: ../functions/theme-options.php:879
+#: ../functions/theme-options.php:1275
+#: ../functions/theme-options.php.bak.php:572
+#: ../functions/theme-options.php.bak.php:697
+#: ../functions/theme-options.php.bak.php:781
+#: ../functions/theme-options.php.bak.php:871
+#: ../functions/theme-options.php.bak.php:1267
+msgid "Display \"The Latest\""
+msgstr ""
+
+#: ../functions/theme-options.php:587
+#: ../functions/theme-options.php.bak.php:578
+msgid "\"The Latest\" Position"
+msgstr ""
+
+#: ../functions/theme-options.php:590
+#: ../functions/theme-options.php.bak.php:581
+msgid "Above \"The Feed\""
+msgstr ""
+
+#: ../functions/theme-options.php:592
+#: ../functions/theme-options.php.bak.php:583
+msgid "Below \"The Feed\""
+msgstr ""
+
+#: ../functions/theme-options.php:596
+#: ../functions/theme-options.php:699
+#: ../functions/theme-options.php.bak.php:587
+#: ../functions/theme-options.php.bak.php:691
+msgid "Display \"The Feed\""
+msgstr ""
+
+#: ../functions/theme-options.php:639
+#: ../functions/theme-options.php:1610
+#: ../functions/theme-options.php.bak.php:630
+#: ../functions/theme-options.php.bak.php:1571
+msgid "Single Posts"
+msgstr ""
+
+#: ../functions/theme-options.php:650
+#: ../functions/theme-options.php.bak.php:641
+msgid "Display Breadcrumbs"
+msgstr ""
+
+#: ../functions/theme-options.php:652
+#: ../functions/theme-options.php:666
+#: ../functions/theme-options.php.bak.php:643
+#: ../functions/theme-options.php.bak.php:657
+msgid "(Applies to pages AND posts)"
+msgstr ""
+
+#: ../functions/theme-options.php:656
+#: ../functions/theme-options.php.bak.php:647
+msgid "Featured Image Size"
+msgstr ""
+
+#: ../functions/theme-options.php:659
+#: ../functions/theme-options.php.bak.php:650
+msgid "Small"
+msgstr ""
+
+#: ../functions/theme-options.php:661
+#: ../functions/theme-options.php.bak.php:652
+msgid "Medium"
+msgstr ""
+
+#: ../functions/theme-options.php:663
+#: ../functions/theme-options.php.bak.php:654
+msgid "Full"
+msgstr ""
+
+#: ../functions/theme-options.php:665
+#: ../functions/theme-options.php.bak.php:656
+msgid "None"
+msgstr ""
+
+#: ../functions/theme-options.php:670
+#: ../functions/theme-options.php.bak.php:661
+msgid "Display Infobox"
+msgstr ""
+
+#: ../functions/theme-options.php:672
+#: ../functions/theme-options.php.bak.php:663
+msgid "The infobox appears above the post title containing author, tags, and more articles link"
+msgstr ""
+
+#: ../functions/theme-options.php:676
+#: ../functions/theme-options.php.bak.php:667
+msgid "Display Sharebox"
+msgstr ""
+
+#: ../functions/theme-options.php:678
+#: ../functions/theme-options.php.bak.php:669
+msgid "The sharebox appears below the post featured image and floats to the left of the content"
+msgstr ""
+
+#: ../functions/theme-options.php:678
+#: ../functions/theme-options.php.bak.php:669
+msgid "(Applies to pages and posts)"
+msgstr ""
+
+#: ../functions/theme-options.php:682
+#: ../functions/theme-options.php.bak.php:673
+msgid "Sharebox Items"
+msgstr ""
+
+#: ../functions/theme-options.php:686
+#: ../functions/theme-options.php.bak.php:677
+msgid "Google +1"
+msgstr ""
+
+#: ../functions/theme-options.php:688
+#: ../functions/theme-options.php.bak.php:679
+msgid "Stumble Upon"
+msgstr ""
+
+#: ../functions/theme-options.php:689
+#: ../functions/theme-options.php.bak.php:681
+msgid "E-mail"
+msgstr ""
+
+#: ../functions/theme-options.php:693
+#: ../functions/theme-options.php:1269
+#: ../functions/theme-options.php.bak.php:685
+#: ../functions/theme-options.php.bak.php:1261
+msgid "Display Authorbox"
+msgstr ""
+
+#: ../functions/theme-options.php:695
+#: ../functions/theme-options.php.bak.php:687
+msgid "The authorbox appears below the post content containing information about the author"
+msgstr ""
+
+#: ../functions/theme-options.php:701
+#: ../functions/theme-options.php.bak.php:693
+msgid "On single pages \"The Feed\" will show related posts by tags and by categories"
+msgstr ""
+
+#: ../functions/theme-options.php:707
+#: ../functions/theme-options.php.bak.php:699
+msgid "Display \"The Latest\" at the bottom of the single post pages"
+msgstr ""
+
+#: ../functions/theme-options.php:720
+#: ../functions/theme-options.php:1669
+#: ../functions/theme-options.php.bak.php:712
+#: ../functions/theme-options.php.bak.php:1630
+msgid "Archive Pages"
+msgstr ""
+
+#: ../functions/theme-options.php:731
+#: ../functions/theme-options.php.bak.php:723
+msgid "Archive Layout"
+msgstr ""
+
+#: ../functions/theme-options.php:763
+#: ../functions/theme-options.php.bak.php:755
+msgid "Archive Header Text"
+msgstr ""
+
+#: ../functions/theme-options.php:766
+#: ../functions/theme-options.php.bak.php:758
+msgid "Text to display as the archive header. Leave blank for built-in archive headers."
+msgstr ""
+
+#: ../functions/theme-options.php:770
+#: ../functions/theme-options.php:860
+#: ../functions/theme-options.php:1055
+#: ../functions/theme-options.php:1250
+#: ../functions/theme-options.php.bak.php:762
+#: ../functions/theme-options.php.bak.php:852
+#: ../functions/theme-options.php.bak.php:1047
+#: ../functions/theme-options.php.bak.php:1242
+msgid "Posts Per Page"
+msgstr ""
+
+#: ../functions/theme-options.php:779
+#: ../functions/theme-options.php.bak.php:771
+msgid "Number of archive posts to display per page (archive pages are paginated)"
+msgstr ""
+
+#: ../functions/theme-options.php:783
+#: ../functions/theme-options.php.bak.php:775
+msgid "Unique Archive Sidebar"
+msgstr ""
+
+#: ../functions/theme-options.php:785
+#: ../functions/theme-options.php.bak.php:777
+msgid "Use the Sidebar Archive widget panel instead of Sidebar Default"
+msgstr ""
+
+#: ../functions/theme-options.php:791
+#: ../functions/theme-options.php.bak.php:783
+msgid "Display \"The Latest\" at the bottom of the archive pages"
+msgstr ""
+
+#: ../functions/theme-options.php:804
+#: ../functions/theme-options.php:1811
+#: ../functions/theme-options.php.bak.php:796
+#: ../functions/theme-options.php.bak.php:1772
+msgid "Category Archive Pages"
+msgstr ""
+
+#: ../functions/theme-options.php:817
+#: ../functions/theme-options.php.bak.php:809
+msgid "These are the settings that are used when viewing the archives for a category, and they override regular archive settings."
+msgstr ""
+
+#: ../functions/theme-options.php:821
+#: ../functions/theme-options.php.bak.php:813
+msgid "Category Archive Layout"
+msgstr ""
+
+#: ../functions/theme-options.php:853
+#: ../functions/theme-options.php.bak.php:845
+msgid "Category Header Text"
+msgstr ""
+
+#: ../functions/theme-options.php:856
+#: ../functions/theme-options.php.bak.php:848
+msgid "Text to display as the category header"
+msgstr ""
+
+#: ../functions/theme-options.php:869
+#: ../functions/theme-options.php.bak.php:861
+msgid "Number of category archive posts to display per page (category archive pages are paginated)"
+msgstr ""
+
+#: ../functions/theme-options.php:873
+#: ../functions/theme-options.php.bak.php:865
+msgid "Unique Category Sidebar"
+msgstr ""
+
+#: ../functions/theme-options.php:875
+#: ../functions/theme-options.php.bak.php:867
+msgid "Use the Sidebar Category widget panel instead of Sidebar Default"
+msgstr ""
+
+#: ../functions/theme-options.php:881
+#: ../functions/theme-options.php.bak.php:873
+msgid "Display \"The Latest\" at the bottom of the category archive pages"
+msgstr ""
+
+#: ../functions/theme-options.php:894
+#: ../functions/theme-options.php.bak.php:886
+msgid "Other Pages"
+msgstr ""
+
+#: ../functions/theme-options.php:905
+#: ../functions/theme-options.php.bak.php:897
+msgid "Search: Posts Per Page"
+msgstr ""
+
+#: ../functions/theme-options.php:914
+#: ../functions/theme-options.php.bak.php:906
+msgid "Number of search results to display per page (search results pages are paginated)"
+msgstr ""
+
+#: ../functions/theme-options.php:918
+#: ../functions/theme-options.php.bak.php:910
+msgid "Unique Search Sidebar"
+msgstr ""
+
+#: ../functions/theme-options.php:920
+#: ../functions/theme-options.php.bak.php:912
+msgid "Use the Sidebar Search widget panel instead of Sidebar Default"
+msgstr ""
+
+#: ../functions/theme-options.php:924
+#: ../functions/theme-options.php.bak.php:916
+msgid "Search: Display \"The Latest\""
+msgstr ""
+
+#: ../functions/theme-options.php:926
+#: ../functions/theme-options.php.bak.php:918
+msgid "Display \"The Latest\" at the bottom of the search results page"
+msgstr ""
+
+#: ../functions/theme-options.php:930
+#: ../functions/theme-options.php.bak.php:922
+msgid "Unique Authors Sidebar"
+msgstr ""
+
+#: ../functions/theme-options.php:932
+#: ../functions/theme-options.php.bak.php:924
+msgid "Use the Sidebar Author widget panel instead of Sidebar Default"
+msgstr ""
+
+#: ../functions/theme-options.php:936
+#: ../functions/theme-options.php.bak.php:928
+msgid "Authors: Display \"The Latest\""
+msgstr ""
+
+#: ../functions/theme-options.php:938
+#: ../functions/theme-options.php.bak.php:930
+msgid "Display \"The Latest\" at the bottom of the author listings page"
+msgstr ""
+
+#: ../functions/theme-options.php:942
+#: ../functions/theme-options.php.bak.php:934
+msgid "Pages: Display \"The Feed\""
+msgstr ""
+
+#: ../functions/theme-options.php:944
+#: ../functions/theme-options.php.bak.php:936
+msgid "Display \"The Feed\" below the page content"
+msgstr ""
+
+#: ../functions/theme-options.php:948
+#: ../functions/theme-options.php.bak.php:940
+msgid "Unique Pages Sidebar"
+msgstr ""
+
+#: ../functions/theme-options.php:950
+#: ../functions/theme-options.php.bak.php:942
+msgid "Use the Sidebar Page widget panel instead of Sidebar Default"
+msgstr ""
+
+#: ../functions/theme-options.php:954
+#: ../functions/theme-options.php.bak.php:946
+msgid "Pages: Display \"The Latest\""
+msgstr ""
+
+#: ../functions/theme-options.php:956
+#: ../functions/theme-options.php.bak.php:948
+msgid "Display \"The Latest\" at the bottom of regular pages"
+msgstr ""
+
+#: ../functions/theme-options.php:1001
+#: ../functions/theme-options.php.bak.php:993
+msgid "Feed Layout"
+msgstr ""
+
+#: ../functions/theme-options.php:1042
+#: ../functions/theme-options.php:1107
+#: ../functions/theme-options.php:1306
+#: ../functions/theme-options.php.bak.php:1034
+#: ../functions/theme-options.php.bak.php:1099
+#: ../functions/theme-options.php.bak.php:1298
+msgid "Feed Header Text"
+msgstr ""
+
+#: ../functions/theme-options.php:1045
+#: ../functions/theme-options.php.bak.php:1037
+msgid "Text to display as the feed header"
+msgstr ""
+
+#: ../functions/theme-options.php:1049
+#: ../functions/theme-options.php:1114
+#: ../functions/theme-options.php:1313
+#: ../functions/theme-options.php.bak.php:1041
+#: ../functions/theme-options.php.bak.php:1106
+#: ../functions/theme-options.php.bak.php:1305
+msgid "Display Social Links"
+msgstr ""
+
+#: ../functions/theme-options.php:1051
+#: ../functions/theme-options.php.bak.php:1043
+msgid "Display the social links in the feed bar"
+msgstr ""
+
+#: ../functions/theme-options.php:1064
+#: ../functions/theme-options.php.bak.php:1056
+msgid "Number of feed posts to display per page (feed pages are paginated)"
+msgstr ""
+
+#: ../functions/theme-options.php:1068
+#: ../functions/theme-options.php.bak.php:1060
+msgid "Layout D Header Text"
+msgstr ""
+
+#: ../functions/theme-options.php:1071
+#: ../functions/theme-options.php.bak.php:1063
+msgid "Text to display as the feed header for layout D"
+msgstr ""
+
+#: ../functions/theme-options.php:1075
+#: ../functions/theme-options.php.bak.php:1067
+msgid "Feed Latest Categories"
+msgstr ""
+
+#: ../functions/theme-options.php:1078
+#: ../functions/theme-options.php.bak.php:1070
+msgid "Comma-separated list of categories to use for feed layout D (e.g. \"Sports, Movies, Video Games, TV\")"
+msgstr ""
+
+#: ../functions/theme-options.php:1082
+#: ../functions/theme-options.php:2584
+#: ../functions/theme-options.php.bak.php:1074
+#: ../functions/theme-options.php.bak.php:2539
+msgid "Latest Number"
+msgstr ""
+
+#: ../functions/theme-options.php:1091
+#: ../functions/theme-options.php.bak.php:1083
+msgid "Number of posts to display for each category in feed layout D"
+msgstr ""
+
+#: ../functions/theme-options.php:1095
+#: ../functions/theme-options.php.bak.php:1087
+msgid "Unique Feed Sidebar"
+msgstr ""
+
+#: ../functions/theme-options.php:1097
+#: ../functions/theme-options.php.bak.php:1089
+msgid "Use the Sidebar Feed widget panel for the feed sidebar instead of the Sidebar Default widget panel"
+msgstr ""
+
+#: ../functions/theme-options.php:1103
+#: ../functions/theme-options.php.bak.php:1095
+msgid "Single Pages and Posts"
+msgstr ""
+
+#: ../functions/theme-options.php:1110
+#: ../functions/theme-options.php.bak.php:1102
+msgid "Text to display as the feed header on single posts and pages"
+msgstr ""
+
+#: ../functions/theme-options.php:1116
+#: ../functions/theme-options.php.bak.php:1108
+msgid "Display the social links in the feed bar on single pages and posts"
+msgstr ""
+
+#: ../functions/theme-options.php:1120
+#: ../functions/theme-options.php.bak.php:1112
+msgid "Number of Posts"
+msgstr ""
+
+#: ../functions/theme-options.php:1129
+#: ../functions/theme-options.php.bak.php:1121
+msgid "Number of feed posts to display on single posts and pages (feed posts are <b>not</b> paginated on single posts and pages)"
+msgstr ""
+
+#: ../functions/theme-options.php:1170
+#: ../functions/theme-options.php.bak.php:1162
+msgid "General Settings"
+msgstr ""
+
+#: ../functions/theme-options.php:1181
+#: ../functions/theme-options.php.bak.php:1173
+msgid "Enable Movie Reviews"
+msgstr ""
+
+#: ../functions/theme-options.php:1187
+#: ../functions/theme-options.php.bak.php:1179
+msgid "Enable Music Reviews"
+msgstr ""
+
+#: ../functions/theme-options.php:1193
+#: ../functions/theme-options.php.bak.php:1185
+msgid "Enable Video Game Reviews"
+msgstr ""
+
+#: ../functions/theme-options.php:1199
+#: ../functions/theme-options.php.bak.php:1191
+msgid "Enable Book Reviews"
+msgstr ""
+
+#: ../functions/theme-options.php:1205
+#: ../functions/theme-options.php.bak.php:1197
+msgid "Enable Product Reviews"
+msgstr ""
+
+#: ../functions/theme-options.php:1211
+#: ../functions/theme-options.php.bak.php:1203
+msgid "Inject Reviews"
+msgstr ""
+
+#: ../functions/theme-options.php:1214
+#: ../functions/theme-options.php.bak.php:1206
+msgid "Inject reviews into all post listing pages instead of keeping them separate on their own pages."
+msgstr ""
+
+#: ../functions/theme-options.php:1218
+#: ../functions/theme-options.php.bak.php:1210
+msgid "Review Listing Layout"
+msgstr ""
+
+#: ../functions/theme-options.php:1259
+#: ../functions/theme-options.php.bak.php:1251
+msgid "Number of reviews to display per page (review pages are paginated)"
+msgstr ""
+
+#: ../functions/theme-options.php:1263
+#: ../functions/theme-options.php.bak.php:1255
+msgid "Unique Review Sidebar"
+msgstr ""
+
+#: ../functions/theme-options.php:1265
+#: ../functions/theme-options.php.bak.php:1257
+msgid "Use the Sidebar All Reviews widget panel instead of Sidebar Default"
+msgstr ""
+
+#: ../functions/theme-options.php:1271
+#: ../functions/theme-options.php.bak.php:1263
+msgid "The authorbox appears below the review content containing information about the author"
+msgstr ""
+
+#: ../functions/theme-options.php:1277
+#: ../functions/theme-options.php.bak.php:1269
+msgid "Display \"The Latest\" at the bottom of review pages"
+msgstr ""
+
+#: ../functions/theme-options.php:1281
+#: ../functions/theme-options.php.bak.php:1273
+msgid "Single: Display \"The Feed\""
+msgstr ""
+
+#: ../functions/theme-options.php:1283
+#: ../functions/theme-options.php.bak.php:1275
+msgid "On single review pages \"The Feed\" will show related posts by taxonomies and post types"
+msgstr ""
+
+#: ../functions/theme-options.php:1287
+#: ../functions/theme-options.php.bak.php:1279
+msgid "Single: Display \"The Latest\""
+msgstr ""
+
+#: ../functions/theme-options.php:1289
+#: ../functions/theme-options.php.bak.php:1281
+msgid "Display \"The Latest\" at the bottom of the single review pages"
+msgstr ""
+
+#: ../functions/theme-options.php:1293
+#: ../functions/theme-options.php.bak.php:1285
+msgid "Feed: Number of Posts"
+msgstr ""
+
+#: ../functions/theme-options.php:1302
+#: ../functions/theme-options.php.bak.php:1294
+msgid "Number of reviews to display in \"The Feed\" on single review pages"
+msgstr ""
+
+#: ../functions/theme-options.php:1309
+#: ../functions/theme-options.php.bak.php:1301
+msgid "Text to display as the feed header on single review pages"
+msgstr ""
+
+#: ../functions/theme-options.php:1315
+#: ../functions/theme-options.php.bak.php:1307
+msgid "Display the social links in the feed bar on single review pages"
+msgstr ""
+
+#: ../functions/theme-options.php:1328
+#: ../functions/theme-options.php.bak.php:1320
+msgid "Rating Labels"
+msgstr ""
+
+#: ../functions/theme-options.php:1341
+#: ../functions/theme-options.php.bak.php:1333
+msgid "The Continuum rating system uses 0 thru 5, increasing at 0.5 increments. That means there are 11 possible ratings that you can assign to a review. You can label what these ratings mean using the textboxes below. These labels will show up when users hover over a review rating, and on single review pages next to the \"Bottom Line\"."
+msgstr ""
+
+#: ../functions/theme-options.php:1345
+#: ../functions/theme-options.php.bak.php:1337
+msgid "0 Rating Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1351
+#: ../functions/theme-options.php.bak.php:1343
+msgid "0.5 Rating Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1357
+#: ../functions/theme-options.php.bak.php:1349
+msgid "1 Rating Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1363
+#: ../functions/theme-options.php.bak.php:1355
+msgid "1.5 Rating Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1369
+#: ../functions/theme-options.php.bak.php:1361
+msgid "2 Rating Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1375
+#: ../functions/theme-options.php.bak.php:1367
+msgid "2.5 Rating Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1381
+#: ../functions/theme-options.php.bak.php:1373
+msgid "3 Rating Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1387
+#: ../functions/theme-options.php.bak.php:1379
+msgid "3.5 Rating Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1393
+#: ../functions/theme-options.php.bak.php:1385
+msgid "4 Rating Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1399
+#: ../functions/theme-options.php.bak.php:1391
+msgid "4.5 Rating Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1405
+#: ../functions/theme-options.php.bak.php:1397
+msgid "5 Rating Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1420
+#: ../functions/theme-options.php.bak.php:1412
+msgid "Review Labels"
+msgstr ""
+
+#: ../functions/theme-options.php:1433
+#: ../functions/theme-options.php.bak.php:1425
+msgid "In addition to a number-based rating, you can give each review a \"Positive\" and a \"Negative\" summary (think \"pros\" and \"cons\") using custom fields. Of course, you might not want to call these fields by their \"Positives\", \"Negatives\", and \"Bottom Line\" defaults and instead use your own verbiage such as \"Pros\", \"Cons\", and \"Overview\", respectively. Or maybe even \"The Good\", \"The Bad\", and \"Our Take\". You can even use different labels for each review type. Use the textboxes below to specify your labels."
+msgstr ""
+
+#: ../functions/theme-options.php:1437
+#: ../functions/theme-options.php.bak.php:1429
+msgid "Movies \"Positive\" Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1443
+#: ../functions/theme-options.php.bak.php:1435
+msgid "Movies \"Negative\" Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1449
+#: ../functions/theme-options.php.bak.php:1441
+msgid "Movies \"Bottom Line\" Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1455
+#: ../functions/theme-options.php.bak.php:1447
+msgid "Music \"Positive\" Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1461
+#: ../functions/theme-options.php.bak.php:1453
+msgid "Music \"Negative\" Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1467
+#: ../functions/theme-options.php.bak.php:1459
+msgid "Music \"Bottom Line\" Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1473
+#: ../functions/theme-options.php.bak.php:1465
+msgid "Video Games \"Positive\" Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1479
+#: ../functions/theme-options.php.bak.php:1471
+msgid "Video Games \"Negative\" Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1485
+#: ../functions/theme-options.php.bak.php:1477
+msgid "Video Gms \"Bottom Line\" Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1491
+#: ../functions/theme-options.php.bak.php:1483
+msgid "Books \"Positive\" Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1497
+#: ../functions/theme-options.php.bak.php:1489
+msgid "Books \"Negative\" Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1503
+#: ../functions/theme-options.php.bak.php:1495
+msgid "Books \"Bottom Line\" Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1509
+#: ../functions/theme-options.php.bak.php:1501
+msgid "Products \"Positive\" Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1515
+#: ../functions/theme-options.php.bak.php:1507
+msgid "Products \"Negative\" Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1521
+#: ../functions/theme-options.php.bak.php:1513
+msgid "Products \"Bottom Line\" Label"
+msgstr ""
+
+#: ../functions/theme-options.php:1529
+#: ../functions/theme-options.php.bak.php:1521
+msgid "Note: Changing the review labels will not affect the custom field names that you assign to the reviews. You will always use \"Positivies\", \"Negatives\", and \"Rating\" as the custom field names. The labels above merely change how the review appears to the users on the front-end."
+msgstr ""
+
+#: ../functions/theme-options.php:1621
+#: ../functions/theme-options.php.bak.php:1582
+msgid "Display Post Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:1623
+#: ../functions/theme-options.php.bak.php:1584
+msgid "Display an ad below the post content"
+msgstr ""
+
+#: ../functions/theme-options.php:1627
+#: ../functions/theme-options.php.bak.php:1588
+msgid "Post Ad HTML"
+msgstr ""
+
+#: ../functions/theme-options.php:1630
+#: ../functions/theme-options.php:1643
+#: ../functions/theme-options.php:1656
+#: ../functions/theme-options.php:1689
+#: ../functions/theme-options.php:1735
+#: ../functions/theme-options.php:1742
+#: ../functions/theme-options.php:1749
+#: ../functions/theme-options.php:1756
+#: ../functions/theme-options.php:1763
+#: ../functions/theme-options.php:1770
+#: ../functions/theme-options.php:1777
+#: ../functions/theme-options.php:1784
+#: ../functions/theme-options.php:1791
+#: ../functions/theme-options.php:1798
+#: ../functions/theme-options.php:1831
+#: ../functions/theme-options.php:1877
+#: ../functions/theme-options.php:1884
+#: ../functions/theme-options.php:1891
+#: ../functions/theme-options.php:1898
+#: ../functions/theme-options.php:1905
+#: ../functions/theme-options.php:1912
+#: ../functions/theme-options.php:1919
+#: ../functions/theme-options.php:1926
+#: ../functions/theme-options.php:1933
+#: ../functions/theme-options.php:1940
+#: ../functions/theme-options.php:1979
+#: ../functions/theme-options.php:2025
+#: ../functions/theme-options.php:2032
+#: ../functions/theme-options.php:2039
+#: ../functions/theme-options.php:2046
+#: ../functions/theme-options.php:2053
+#: ../functions/theme-options.php:2060
+#: ../functions/theme-options.php:2067
+#: ../functions/theme-options.php:2074
+#: ../functions/theme-options.php:2081
+#: ../functions/theme-options.php:2088
+#: ../functions/theme-options.php:2244
+#: ../functions/theme-options.php:2251
+#: ../functions/theme-options.php:2258
+#: ../functions/theme-options.php:2265
+#: ../functions/theme-options.php:2272
+#: ../functions/theme-options.php:2279
+#: ../functions/theme-options.php:2286
+#: ../functions/theme-options.php:2293
+#: ../functions/theme-options.php:2300
+#: ../functions/theme-options.php:2307
+#: ../functions/theme-options.php:2340
+#: ../functions/theme-options.php:2353
+#: ../functions/theme-options.php:2366
+#: ../functions/theme-options.php:2379
+#: ../functions/theme-options.php:2392
+#: ../functions/theme-options.php.bak.php:1591
+#: ../functions/theme-options.php.bak.php:1604
+#: ../functions/theme-options.php.bak.php:1617
+#: ../functions/theme-options.php.bak.php:1650
+#: ../functions/theme-options.php.bak.php:1696
+#: ../functions/theme-options.php.bak.php:1703
+#: ../functions/theme-options.php.bak.php:1710
+#: ../functions/theme-options.php.bak.php:1717
+#: ../functions/theme-options.php.bak.php:1724
+#: ../functions/theme-options.php.bak.php:1731
+#: ../functions/theme-options.php.bak.php:1738
+#: ../functions/theme-options.php.bak.php:1745
+#: ../functions/theme-options.php.bak.php:1752
+#: ../functions/theme-options.php.bak.php:1759
+#: ../functions/theme-options.php.bak.php:1792
+#: ../functions/theme-options.php.bak.php:1838
+#: ../functions/theme-options.php.bak.php:1845
+#: ../functions/theme-options.php.bak.php:1852
+#: ../functions/theme-options.php.bak.php:1859
+#: ../functions/theme-options.php.bak.php:1866
+#: ../functions/theme-options.php.bak.php:1873
+#: ../functions/theme-options.php.bak.php:1880
+#: ../functions/theme-options.php.bak.php:1887
+#: ../functions/theme-options.php.bak.php:1894
+#: ../functions/theme-options.php.bak.php:1901
+#: ../functions/theme-options.php.bak.php:1940
+#: ../functions/theme-options.php.bak.php:1986
+#: ../functions/theme-options.php.bak.php:1993
+#: ../functions/theme-options.php.bak.php:2000
+#: ../functions/theme-options.php.bak.php:2007
+#: ../functions/theme-options.php.bak.php:2014
+#: ../functions/theme-options.php.bak.php:2021
+#: ../functions/theme-options.php.bak.php:2028
+#: ../functions/theme-options.php.bak.php:2035
+#: ../functions/theme-options.php.bak.php:2042
+#: ../functions/theme-options.php.bak.php:2049
+#: ../functions/theme-options.php.bak.php:2205
+#: ../functions/theme-options.php.bak.php:2212
+#: ../functions/theme-options.php.bak.php:2219
+#: ../functions/theme-options.php.bak.php:2226
+#: ../functions/theme-options.php.bak.php:2233
+#: ../functions/theme-options.php.bak.php:2240
+#: ../functions/theme-options.php.bak.php:2247
+#: ../functions/theme-options.php.bak.php:2254
+#: ../functions/theme-options.php.bak.php:2261
+#: ../functions/theme-options.php.bak.php:2268
+#: ../functions/theme-options.php.bak.php:2301
+#: ../functions/theme-options.php.bak.php:2314
+#: ../functions/theme-options.php.bak.php:2327
+#: ../functions/theme-options.php.bak.php:2340
+#: ../functions/theme-options.php.bak.php:2353
+msgid "The HTML for the advertisment"
+msgstr ""
+
+#: ../functions/theme-options.php:1634
+#: ../functions/theme-options.php.bak.php:1595
+msgid "Display Feed Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:1636
+#: ../functions/theme-options.php.bak.php:1597
+msgid "Display an ad below \"The Feed\""
+msgstr ""
+
+#: ../functions/theme-options.php:1640
+#: ../functions/theme-options.php.bak.php:1601
+msgid "Feed Ad HTML"
+msgstr ""
+
+#: ../functions/theme-options.php:1647
+#: ../functions/theme-options.php.bak.php:1608
+msgid "Display Comment Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:1649
+#: ../functions/theme-options.php.bak.php:1610
+msgid "Display an ad below the comments"
+msgstr ""
+
+#: ../functions/theme-options.php:1653
+#: ../functions/theme-options.php.bak.php:1614
+msgid "Comment Ad HTML"
+msgstr ""
+
+#: ../functions/theme-options.php:1680
+#: ../functions/theme-options.php:1822
+#: ../functions/theme-options.php:1970
+#: ../functions/theme-options.php.bak.php:1641
+#: ../functions/theme-options.php.bak.php:1783
+#: ../functions/theme-options.php.bak.php:1931
+msgid "Display Footer Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:1682
+#: ../functions/theme-options.php.bak.php:1643
+msgid "Display an ad below the archive listings"
+msgstr ""
+
+#: ../functions/theme-options.php:1686
+#: ../functions/theme-options.php:1828
+#: ../functions/theme-options.php:1976
+#: ../functions/theme-options.php.bak.php:1647
+#: ../functions/theme-options.php.bak.php:1789
+#: ../functions/theme-options.php.bak.php:1937
+msgid "Footer Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:1693
+#: ../functions/theme-options.php:1835
+#: ../functions/theme-options.php:1983
+#: ../functions/theme-options.php:2112
+#: ../functions/theme-options.php:2157
+#: ../functions/theme-options.php:2202
+#: ../functions/theme-options.php.bak.php:1654
+#: ../functions/theme-options.php.bak.php:1796
+#: ../functions/theme-options.php.bak.php:1944
+#: ../functions/theme-options.php.bak.php:2073
+#: ../functions/theme-options.php.bak.php:2118
+#: ../functions/theme-options.php.bak.php:2163
+msgid "Number of Ads"
+msgstr ""
+
+#: ../functions/theme-options.php:1702
+#: ../functions/theme-options.php.bak.php:1663
+msgid "Number of ads to display throughout the archive listings. Select \"0\" to hide these ads."
+msgstr ""
+
+#: ../functions/theme-options.php:1706
+#: ../functions/theme-options.php:1848
+#: ../functions/theme-options.php:1996
+#: ../functions/theme-options.php:2125
+#: ../functions/theme-options.php:2170
+#: ../functions/theme-options.php:2215
+#: ../functions/theme-options.php.bak.php:1667
+#: ../functions/theme-options.php.bak.php:1809
+#: ../functions/theme-options.php.bak.php:1957
+#: ../functions/theme-options.php.bak.php:2086
+#: ../functions/theme-options.php.bak.php:2131
+#: ../functions/theme-options.php.bak.php:2176
+msgid "Increment"
+msgstr ""
+
+#: ../functions/theme-options.php:1715
+#: ../functions/theme-options.php:1857
+#: ../functions/theme-options.php:2005
+#: ../functions/theme-options.php:2134
+#: ../functions/theme-options.php:2179
+#: ../functions/theme-options.php:2224
+#: ../functions/theme-options.php.bak.php:1676
+#: ../functions/theme-options.php.bak.php:1818
+#: ../functions/theme-options.php.bak.php:1966
+#: ../functions/theme-options.php.bak.php:2095
+#: ../functions/theme-options.php.bak.php:2140
+#: ../functions/theme-options.php.bak.php:2185
+msgid "Display an ad every Nth post. For instance, if \"3\" is selected, every 3rd post will be an ad."
+msgstr ""
+
+#: ../functions/theme-options.php:1719
+#: ../functions/theme-options.php:1861
+#: ../functions/theme-options.php:2009
+#: ../functions/theme-options.php:2138
+#: ../functions/theme-options.php:2183
+#: ../functions/theme-options.php:2228
+#: ../functions/theme-options.php.bak.php:1680
+#: ../functions/theme-options.php.bak.php:1822
+#: ../functions/theme-options.php.bak.php:1970
+#: ../functions/theme-options.php.bak.php:2099
+#: ../functions/theme-options.php.bak.php:2144
+#: ../functions/theme-options.php.bak.php:2189
+msgid "Off-set"
+msgstr ""
+
+#: ../functions/theme-options.php:1728
+#: ../functions/theme-options.php:1870
+#: ../functions/theme-options.php:2018
+#: ../functions/theme-options.php:2147
+#: ../functions/theme-options.php:2192
+#: ../functions/theme-options.php:2237
+#: ../functions/theme-options.php.bak.php:1689
+#: ../functions/theme-options.php.bak.php:1831
+#: ../functions/theme-options.php.bak.php:1979
+#: ../functions/theme-options.php.bak.php:2108
+#: ../functions/theme-options.php.bak.php:2153
+#: ../functions/theme-options.php.bak.php:2198
+msgid "Number of posts to display before the first ad"
+msgstr ""
+
+#: ../functions/theme-options.php:1732
+#: ../functions/theme-options.php:1874
+#: ../functions/theme-options.php:2022
+#: ../functions/theme-options.php:2241
+#: ../functions/theme-options.php.bak.php:1693
+#: ../functions/theme-options.php.bak.php:1835
+#: ../functions/theme-options.php.bak.php:1983
+#: ../functions/theme-options.php.bak.php:2202
+msgid "Ad 1"
+msgstr ""
+
+#: ../functions/theme-options.php:1739
+#: ../functions/theme-options.php:1881
+#: ../functions/theme-options.php:2029
+#: ../functions/theme-options.php:2248
+#: ../functions/theme-options.php.bak.php:1700
+#: ../functions/theme-options.php.bak.php:1842
+#: ../functions/theme-options.php.bak.php:1990
+#: ../functions/theme-options.php.bak.php:2209
+msgid "Ad 2"
+msgstr ""
+
+#: ../functions/theme-options.php:1746
+#: ../functions/theme-options.php:1888
+#: ../functions/theme-options.php:2036
+#: ../functions/theme-options.php:2255
+#: ../functions/theme-options.php.bak.php:1707
+#: ../functions/theme-options.php.bak.php:1849
+#: ../functions/theme-options.php.bak.php:1997
+#: ../functions/theme-options.php.bak.php:2216
+msgid "Ad 3"
+msgstr ""
+
+#: ../functions/theme-options.php:1753
+#: ../functions/theme-options.php:1895
+#: ../functions/theme-options.php:2043
+#: ../functions/theme-options.php:2262
+#: ../functions/theme-options.php.bak.php:1714
+#: ../functions/theme-options.php.bak.php:1856
+#: ../functions/theme-options.php.bak.php:2004
+#: ../functions/theme-options.php.bak.php:2223
+msgid "Ad 4"
+msgstr ""
+
+#: ../functions/theme-options.php:1760
+#: ../functions/theme-options.php:1902
+#: ../functions/theme-options.php:2050
+#: ../functions/theme-options.php:2269
+#: ../functions/theme-options.php.bak.php:1721
+#: ../functions/theme-options.php.bak.php:1863
+#: ../functions/theme-options.php.bak.php:2011
+#: ../functions/theme-options.php.bak.php:2230
+msgid "Ad 5"
+msgstr ""
+
+#: ../functions/theme-options.php:1767
+#: ../functions/theme-options.php:1909
+#: ../functions/theme-options.php:2057
+#: ../functions/theme-options.php:2276
+#: ../functions/theme-options.php.bak.php:1728
+#: ../functions/theme-options.php.bak.php:1870
+#: ../functions/theme-options.php.bak.php:2018
+#: ../functions/theme-options.php.bak.php:2237
+msgid "Ad 6"
+msgstr ""
+
+#: ../functions/theme-options.php:1774
+#: ../functions/theme-options.php:1916
+#: ../functions/theme-options.php:2064
+#: ../functions/theme-options.php:2283
+#: ../functions/theme-options.php.bak.php:1735
+#: ../functions/theme-options.php.bak.php:1877
+#: ../functions/theme-options.php.bak.php:2025
+#: ../functions/theme-options.php.bak.php:2244
+msgid "Ad 7"
+msgstr ""
+
+#: ../functions/theme-options.php:1781
+#: ../functions/theme-options.php:1923
+#: ../functions/theme-options.php:2071
+#: ../functions/theme-options.php:2290
+#: ../functions/theme-options.php.bak.php:1742
+#: ../functions/theme-options.php.bak.php:1884
+#: ../functions/theme-options.php.bak.php:2032
+#: ../functions/theme-options.php.bak.php:2251
+msgid "Ad 8"
+msgstr ""
+
+#: ../functions/theme-options.php:1788
+#: ../functions/theme-options.php:1930
+#: ../functions/theme-options.php:2078
+#: ../functions/theme-options.php:2297
+#: ../functions/theme-options.php.bak.php:1749
+#: ../functions/theme-options.php.bak.php:1891
+#: ../functions/theme-options.php.bak.php:2039
+#: ../functions/theme-options.php.bak.php:2258
+msgid "Ad 9"
+msgstr ""
+
+#: ../functions/theme-options.php:1795
+#: ../functions/theme-options.php:1937
+#: ../functions/theme-options.php:2085
+#: ../functions/theme-options.php:2304
+#: ../functions/theme-options.php.bak.php:1756
+#: ../functions/theme-options.php.bak.php:1898
+#: ../functions/theme-options.php.bak.php:2046
+#: ../functions/theme-options.php.bak.php:2265
+msgid "Ad 10"
+msgstr ""
+
+#: ../functions/theme-options.php:1824
+#: ../functions/theme-options.php.bak.php:1785
+msgid "Display an ad below the category listings"
+msgstr ""
+
+#: ../functions/theme-options.php:1844
+#: ../functions/theme-options.php.bak.php:1805
+msgid "Number of ads to display throughout the category listings. Select \"0\" to hide these ads."
+msgstr ""
+
+#: ../functions/theme-options.php:1953
+#: ../functions/theme-options.php.bak.php:1914
+msgid "Review Pages"
+msgstr ""
+
+#: ../functions/theme-options.php:1966
+#: ../functions/theme-options.php.bak.php:1927
+msgid "These settings affect the review listings pages rather than The Feed below the content of the single review pages. To change the settings for ads that appear in The Feed, whic appears below the content of any single page or post, use The Feed toggle panel below."
+msgstr ""
+
+#: ../functions/theme-options.php:1972
+#: ../functions/theme-options.php.bak.php:1933
+msgid "Display an ad below the review listings"
+msgstr ""
+
+#: ../functions/theme-options.php:1992
+#: ../functions/theme-options.php.bak.php:1953
+msgid "Number of ads to display throughout the review listings. Select \"0\" to hide these ads."
+msgstr ""
+
+#: ../functions/theme-options.php:2121
+#: ../functions/theme-options.php:2166
+#: ../functions/theme-options.php:2211
+#: ../functions/theme-options.php.bak.php:2082
+#: ../functions/theme-options.php.bak.php:2127
+#: ../functions/theme-options.php.bak.php:2172
+msgid "Number of ads to display throughout the feed listings. Select \"0\" to hide these ads."
+msgstr ""
+
+#: ../functions/theme-options.php:2153
+#: ../functions/theme-options.php.bak.php:2114
+msgid "You can specify a different number, increment, and offset for ads that display in \"The Feed\" on <b>single posts</b>."
+msgstr ""
+
+#: ../functions/theme-options.php:2198
+#: ../functions/theme-options.php.bak.php:2159
+msgid "You can specify a different number, increment, and offset for ads that display in \"The Feed\" on <b>review pages</b>."
+msgstr ""
+
+#: ../functions/theme-options.php:2320
+#: ../functions/theme-options.php.bak.php:2281
+msgid "Even More Ads..."
+msgstr ""
+
+#: ../functions/theme-options.php:2331
+#: ../functions/theme-options.php.bak.php:2292
+msgid "Display Header Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:2333
+#: ../functions/theme-options.php.bak.php:2294
+msgid "Display an ad in the header next to the logo"
+msgstr ""
+
+#: ../functions/theme-options.php:2337
+#: ../functions/theme-options.php.bak.php:2298
+msgid "Header Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:2344
+#: ../functions/theme-options.php.bak.php:2305
+msgid "Display Page Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:2346
+#: ../functions/theme-options.php.bak.php:2307
+msgid "Display an ad below the content of pages"
+msgstr ""
+
+#: ../functions/theme-options.php:2350
+#: ../functions/theme-options.php.bak.php:2311
+msgid "Page Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:2357
+#: ../functions/theme-options.php.bak.php:2318
+msgid "Display Page Feed Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:2359
+#: ../functions/theme-options.php.bak.php:2320
+msgid "Display an ad below \"The Feed\" on pages"
+msgstr ""
+
+#: ../functions/theme-options.php:2363
+#: ../functions/theme-options.php.bak.php:2324
+msgid "Page Feed Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:2370
+#: ../functions/theme-options.php.bak.php:2331
+msgid "Display Search Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:2372
+#: ../functions/theme-options.php.bak.php:2333
+msgid "Display an ad below the search listings"
+msgstr ""
+
+#: ../functions/theme-options.php:2376
+#: ../functions/theme-options.php.bak.php:2337
+msgid "Search Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:2383
+#: ../functions/theme-options.php.bak.php:2344
+msgid "Display Author Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:2385
+#: ../functions/theme-options.php.bak.php:2346
+msgid "Display an ad below the author listings"
+msgstr ""
+
+#: ../functions/theme-options.php:2389
+#: ../functions/theme-options.php.bak.php:2350
+msgid "Author Ad"
+msgstr ""
+
+#: ../functions/theme-options.php:2436
+#: ../functions/theme-options.php.bak.php:2397
+msgid "Site Background"
+msgstr ""
+
+#: ../functions/theme-options.php:2439
+#: ../functions/theme-options.php.bak.php:2400
+msgid "Light Lithium"
+msgstr ""
+
+#: ../functions/theme-options.php:2440
+#: ../functions/theme-options.php.bak.php:2401
+msgid "Light Xenon"
+msgstr ""
+
+#: ../functions/theme-options.php:2441
+#: ../functions/theme-options.php.bak.php:2402
+msgid "Light Titanium"
+msgstr ""
+
+#: ../functions/theme-options.php:2442
+#: ../functions/theme-options.php.bak.php:2403
+msgid "Light Plutonium"
+msgstr ""
+
+#: ../functions/theme-options.php:2443
+#: ../functions/theme-options.php.bak.php:2404
+msgid "Light Iridium"
+msgstr ""
+
+#: ../functions/theme-options.php:2444
+#: ../functions/theme-options.php.bak.php:2405
+msgid "Light Magnesium"
+msgstr ""
+
+#: ../functions/theme-options.php:2445
+#: ../functions/theme-options.php.bak.php:2406
+msgid "Dark Lithium"
+msgstr ""
+
+#: ../functions/theme-options.php:2446
+#: ../functions/theme-options.php.bak.php:2407
+msgid "Dark Xenon"
+msgstr ""
+
+#: ../functions/theme-options.php:2447
+#: ../functions/theme-options.php.bak.php:2408
+msgid "Dark Titanium"
+msgstr ""
+
+#: ../functions/theme-options.php:2448
+#: ../functions/theme-options.php.bak.php:2409
+msgid "Dark Plutonium"
+msgstr ""
+
+#: ../functions/theme-options.php:2449
+#: ../functions/theme-options.php.bak.php:2410
+msgid "Dark Iridium"
+msgstr ""
+
+#: ../functions/theme-options.php:2450
+#: ../functions/theme-options.php.bak.php:2411
+msgid "Dark Magnesium"
+msgstr ""
+
+#: ../functions/theme-options.php:2451
+#: ../functions/theme-options.php.bak.php:2412
+msgid "Light Lithium 2"
+msgstr ""
+
+#: ../functions/theme-options.php:2452
+#: ../functions/theme-options.php.bak.php:2413
+msgid "Light Xenon 2"
+msgstr ""
+
+#: ../functions/theme-options.php:2453
+#: ../functions/theme-options.php.bak.php:2414
+msgid "Light Titanium 2"
+msgstr ""
+
+#: ../functions/theme-options.php:2454
+#: ../functions/theme-options.php.bak.php:2415
+msgid "Light Plutonium 2"
+msgstr ""
+
+#: ../functions/theme-options.php:2455
+#: ../functions/theme-options.php.bak.php:2416
+msgid "Light Iridium 2"
+msgstr ""
+
+#: ../functions/theme-options.php:2456
+#: ../functions/theme-options.php.bak.php:2417
+msgid "Light Magnesium 2"
+msgstr ""
+
+#: ../functions/theme-options.php:2457
+#: ../functions/theme-options.php.bak.php:2418
+msgid "Dark Lithium 2"
+msgstr ""
+
+#: ../functions/theme-options.php:2458
+#: ../functions/theme-options.php.bak.php:2419
+msgid "Dark Xenon 2"
+msgstr ""
+
+#: ../functions/theme-options.php:2459
+#: ../functions/theme-options.php.bak.php:2420
+msgid "Dark Titanium 2"
+msgstr ""
+
+#: ../functions/theme-options.php:2460
+#: ../functions/theme-options.php.bak.php:2421
+msgid "Dark Plutonium 2"
+msgstr ""
+
+#: ../functions/theme-options.php:2461
+#: ../functions/theme-options.php.bak.php:2422
+msgid "Dark Iridium 2"
+msgstr ""
+
+#: ../functions/theme-options.php:2462
+#: ../functions/theme-options.php.bak.php:2423
+msgid "Dark Magnesium 2"
+msgstr ""
+
+#: ../functions/theme-options.php:2463
+#: ../functions/theme-options.php.bak.php:2424
+msgid "Supernova Blue"
+msgstr ""
+
+#: ../functions/theme-options.php:2464
+#: ../functions/theme-options.php.bak.php:2425
+msgid "Black Hole Blue"
+msgstr ""
+
+#: ../functions/theme-options.php:2465
+#: ../functions/theme-options.php.bak.php:2426
+msgid "Galactic Red"
+msgstr ""
+
+#: ../functions/theme-options.php:2466
+#: ../functions/theme-options.php.bak.php:2427
+msgid "Star Cluster Orange"
+msgstr ""
+
+#: ../functions/theme-options.php:2467
+#: ../functions/theme-options.php.bak.php:2428
+msgid "Custom Background"
+msgstr ""
+
+#: ../functions/theme-options.php:2469
+#: ../functions/theme-options.php.bak.php:2430
+msgid "If you choose Custom Background, set using Appearance >> Background."
+msgstr ""
+
+#: ../functions/theme-options.php:2473
+#: ../functions/theme-options.php.bak.php:2434
+msgid "Fixed Background Image"
+msgstr ""
+
+#: ../functions/theme-options.php:2475
+#: ../functions/theme-options.php.bak.php:2436
+msgid "Fix the background image so that it does not move when you scroll the page"
+msgstr ""
+
+#: ../functions/theme-options.php:2479
+#: ../functions/theme-options.php.bak.php:2440
+msgid "Logo URL"
+msgstr ""
+
+#: ../functions/theme-options.php:2482
+#: ../functions/theme-options.php.bak.php:2443
+msgid "The URL of your logo image. You can use the Media >> Add New screen to upload your logo. Copy + Paste the URL of your uploaded logo here."
+msgstr ""
+
+#: ../functions/theme-options.php:2486
+#: ../functions/theme-options.php.bak.php:2447
+msgid "Color Scheme"
+msgstr ""
+
+#: ../functions/theme-options.php:2489
+#: ../functions/theme-options.php.bak.php:2450
+msgid "Lithium"
+msgstr ""
+
+#: ../functions/theme-options.php:2490
+#: ../functions/theme-options.php.bak.php:2451
+msgid "Xenon"
+msgstr ""
+
+#: ../functions/theme-options.php:2491
+#: ../functions/theme-options.php.bak.php:2452
+msgid "Titanium"
+msgstr ""
+
+#: ../functions/theme-options.php:2492
+#: ../functions/theme-options.php.bak.php:2453
+msgid "Plutonium"
+msgstr ""
+
+#: ../functions/theme-options.php:2493
+#: ../functions/theme-options.php.bak.php:2454
+msgid "Iridium"
+msgstr ""
+
+#: ../functions/theme-options.php:2494
+#: ../functions/theme-options.php.bak.php:2455
+msgid "Magnesium"
+msgstr ""
+
+#: ../functions/theme-options.php:2496
+#: ../functions/theme-options.php.bak.php:2457
+msgid "Although it is not required, Continuum is designed to use the same color for the background and the color scheme."
+msgstr ""
+
+#: ../functions/theme-options.php:2502
+#: ../functions/theme-options.php.bak.php:2463
+msgid "Breaking Panel"
+msgstr ""
+
+#: ../functions/theme-options.php:2506
+#: ../functions/theme-options.php.bak.php:2467
+msgid "Display Breaking Panel"
+msgstr ""
+
+#: ../functions/theme-options.php:2508
+#: ../functions/theme-options.php.bak.php:2469
+msgid "Display the Breaking toggle panel at the top of all pages"
+msgstr ""
+
+#: ../functions/theme-options.php:2512
+msgid "Hidden By Default"
+msgstr ""
+
+#: ../functions/theme-options.php:2514
+msgid "The Breaking Panel will be hidden by default and will need to be toggled on"
+msgstr ""
+
+#: ../functions/theme-options.php:2518
+#: ../functions/theme-options.php.bak.php:2473
+msgid "Rotate Breaking Panel"
+msgstr ""
+
+#: ../functions/theme-options.php:2520
+#: ../functions/theme-options.php.bak.php:2475
+msgid "Automatically rotate the Breaking panel instead of having to use the arrows"
+msgstr ""
+
+#: ../functions/theme-options.php:2524
+#: ../functions/theme-options.php.bak.php:2479
+msgid "Breaking Panel Duration"
+msgstr ""
+
+#: ../functions/theme-options.php:2533
+#: ../functions/theme-options.php.bak.php:2488
+msgid "Number of seconds each breaking panel will display before rotating"
+msgstr ""
+
+#: ../functions/theme-options.php:2537
+#: ../functions/theme-options.php.bak.php:2492
+msgid "Breaking Tag"
+msgstr ""
+
+#: ../functions/theme-options.php:2540
+#: ../functions/theme-options.php.bak.php:2495
+msgid "Name of the tag that you want to use to mark posts as Breaking"
+msgstr ""
+
+#: ../functions/theme-options.php:2544
+#: ../functions/theme-options.php.bak.php:2499
+msgid "Breaking Text"
+msgstr ""
+
+#: ../functions/theme-options.php:2547
+#: ../functions/theme-options.php.bak.php:2502
+msgid "Text that displays in the breaking pull-down tab"
+msgstr ""
+
+#: ../functions/theme-options.php:2551
+#: ../functions/theme-options.php.bak.php:2506
+msgid "Breaking Number of Posts"
+msgstr ""
+
+#: ../functions/theme-options.php:2560
+#: ../functions/theme-options.php.bak.php:2515
+msgid "Number of breaking posts to use in the rotator"
+msgstr ""
+
+#: ../functions/theme-options.php:2566
+#: ../functions/theme-options.php.bak.php:2521
+msgid "The Latest"
+msgstr ""
+
+#: ../functions/theme-options.php:2570
+#: ../functions/theme-options.php.bak.php:2525
+msgid "Latest Header Text"
+msgstr ""
+
+#: ../functions/theme-options.php:2573
+#: ../functions/theme-options.php.bak.php:2528
+msgid "Text that displays as the header of \"The Latest\" panel"
+msgstr ""
+
+#: ../functions/theme-options.php:2577
+#: ../functions/theme-options.php.bak.php:2532
+msgid "Latest Categories"
+msgstr ""
+
+#: ../functions/theme-options.php:2580
+#: ../functions/theme-options.php.bak.php:2535
+msgid "Comma-separated list of categories to use in \"The Latest\" panel (e.g. \"Sports, Movies, Video Games, TV"
+msgstr ""
+
+#: ../functions/theme-options.php:2593
+#: ../functions/theme-options.php.bak.php:2548
+msgid "Number of posts to display for each category in \"The Latest\" panel"
+msgstr ""
+
+#: ../functions/theme-options.php:2599
+#: ../functions/theme-options.php.bak.php:2554
+msgid "More Options"
+msgstr ""
+
+#: ../functions/theme-options.php:2603
+#: ../functions/theme-options.php.bak.php:2558
+msgid "Display Search Form"
+msgstr ""
+
+#: ../functions/theme-options.php:2605
+#: ../functions/theme-options.php.bak.php:2560
+msgid "Display the search form in the top menu bar"
+msgstr ""
+
+#: ../functions/theme-options.php:2609
+#: ../functions/theme-options.php.bak.php:2564
+msgid "Display Small Menu"
+msgstr ""
+
+#: ../functions/theme-options.php:2611
+#: ../functions/theme-options.php.bak.php:2566
+msgid "Display the right-aligned small menu that sits above the main menu"
+msgstr ""
+
+#: ../functions/theme-options.php:2615
+#: ../functions/theme-options.php.bak.php:2570
+msgid "Display Random Button"
+msgstr ""
+
+#: ../functions/theme-options.php:2617
+#: ../functions/theme-options.php.bak.php:2572
+msgid "Display the random button to the right of the main menu"
+msgstr ""
+
+#: ../functions/theme-options.php:2621
+#: ../functions/theme-options.php.bak.php:2576
+msgid "Display Fancy Tooltips"
+msgstr ""
+
+#: ../functions/theme-options.php:2623
+#: ../functions/theme-options.php.bak.php:2578
+msgid "Display the fancy jQuery tooltips that appear upon hover overs throughout the site"
+msgstr ""
+
+#: ../functions/theme-options.php:2627
+msgid "Colorbox Enabled"
+msgstr ""
+
+#: ../functions/theme-options.php:2629
+msgid "Enable the colorbox jQuery plugin"
+msgstr ""
+
+#: ../functions/theme-options.php:2633
+#: ../functions/theme-options.php.bak.php:2582
+msgid "Display Footer Credits"
+msgstr ""
+
+#: ../functions/theme-options.php:2635
+#: ../functions/theme-options.php.bak.php:2584
+msgid "Display the Continuum credits in the footer"
+msgstr ""
+
+#: ../functions/theme-options.php:2639
+#: ../functions/theme-options.php.bak.php:2588
+msgid "Signoff Text"
+msgstr ""
+
+#: ../functions/theme-options.php:2642
+#: ../functions/theme-options.php.bak.php:2591
+msgid "When you use the Signoff shortcode this is the text that will display"
+msgstr ""
+
+#: ../functions/theme-options.php:2646
+#: ../functions/theme-options.php.bak.php:2595
+msgid "Twitter Username"
+msgstr ""
+
+#: ../functions/theme-options.php:2649
+#: ../functions/theme-options.php.bak.php:2598
+msgid "Your Twitter Username"
+msgstr ""
+
+#: ../functions/theme-options.php:2653
+#: ../functions/theme-options.php.bak.php:2602
+msgid "Facebook URL"
+msgstr ""
+
+#: ../functions/theme-options.php:2656
+#: ../functions/theme-options.php.bak.php:2605
+msgid "Your Facebook URL"
+msgstr ""
+
+#: ../functions/theme-options.php:2660
+#: ../functions/theme-options.php.bak.php:2609
+msgid "Flickr Account ID"
+msgstr ""
+
+#: ../functions/theme-options.php:2663
+#: ../functions/theme-options.php.bak.php:2612
+msgid "Your Flickr Account ID. Use this service to find it: http://idgettr.com/"
+msgstr ""
+
+#: ../functions/theme-options.php:2667
+#: ../functions/theme-options.php.bak.php:2616
+msgid "RSS Feed URL"
+msgstr ""
+
+#: ../functions/theme-options.php:2670
+#: ../functions/theme-options.php.bak.php:2619
+msgid "Your RSS Feed URL"
+msgstr ""
+
+#: ../functions/theme-options.php:2674
+#: ../functions/theme-options.php.bak.php:2623
+msgid "Google Analytics"
+msgstr ""
+
+#: ../functions/theme-options.php:2677
+#: ../functions/theme-options.php.bak.php:2626
+msgid "Copy &amp; paste your Google Analytics code"
+msgstr ""
+
+#: ../functions/theme-options.php.bak.php:350
+msgid "Leave a comment on the Continuum item details page at Theme Forest (this is the same place you downloaded Continuum)."
+msgstr ""
+
+#: ../functions/theme-options.php.bak.php:351
+msgid "or by filling out the contact form at the bottom of the website of the author"
+msgstr ""
+
+#: ../functions/theme-options.php.bak.php:680
+msgid "Google Buzz"
+msgstr ""
+
+#: ../functions/widgets.php:31
+msgid "These widgets appear in the right of the spotlight area. Leave this panel blank to display the Recent Reactions comment scroller."
+msgstr ""
+
+#: ../functions/widgets.php:42
+msgid "These widgets appear in the right sidebar of the feed (if specified in the Continuum options page)"
+msgstr ""
+
+#: ../functions/widgets.php:53
+msgid "This is the default sidebar that will appear on every page (unless specified differently in the Continuum options page)"
+msgstr ""
+
+#: ../functions/widgets.php:64
+msgid "This is the sidebar that will appear only on pages (if specified in the Continuum options page)"
+msgstr ""
+
+#: ../functions/widgets.php:75
+msgid "This is the sidebar that will appear only on a category listing page (if specified in the Continuum options page)"
+msgstr ""
+
+#: ../functions/widgets.php:86
+msgid "These widgets appear in the right sidebar of the comments section."
+msgstr ""
+
+#: ../functions/widgets.php:97
+msgid "These widgets appear in the right sidebar of the archive pages."
+msgstr ""
+
+#: ../functions/widgets.php:108
+msgid "These widgets appear in the right sidebar of the author pages."
+msgstr ""
+
+#: ../functions/widgets.php:119
+msgid "These widgets appear in the right sidebar of all review pages."
+msgstr ""
+
+#: ../functions/widgets.php:130
+msgid "These widgets appear in the right sidebar of the movie reviews pages."
+msgstr ""
+
+#: ../functions/widgets.php:141
+msgid "These widgets appear in the right sidebar of the music reviews pages."
+msgstr ""
+
+#: ../functions/widgets.php:152
+msgid "These widgets appear in the right sidebar of the video game reviews pages."
+msgstr ""
+
+#: ../functions/widgets.php:163
+msgid "These widgets appear in the right sidebar of the book reviews pages."
+msgstr ""
+
+#: ../functions/widgets.php:174
+msgid "These widgets appear in the right sidebar of the product reviews pages."
+msgstr ""
+
+#: ../functions/widgets.php:185
+msgid "These widgets appear in the right sidebar of the search results pages."
+msgstr ""
+
+#: ../functions/widgets.php:196
+msgid "This is the widget panel that appears inside the Share box on single post pages"
+msgstr ""
+
+#: ../functions/widgets.php:207
+msgid "These widgets appear in the left panel of the footer"
+msgstr ""
+
+#: ../functions/widgets.php:218
+msgid "These widgets appear in the middle panel of the footer"
+msgstr ""
+
+#: ../functions/widgets.php:229
+msgid "These widgets appear in the right panel of the footer"
+msgstr ""
+
+#: ../functions/widgets.php:596
+msgid "Popular"
+msgstr ""
+
+#: ../functions/widgets.php:597
+#: ../inc/archive.php:98
+#: ../inc/book-review.php:69
+#: ../inc/category.php:76
+#: ../inc/feed.php:206
+#: ../inc/game-review.php:69
+#: ../inc/movie-review.php:69
+#: ../inc/music-review.php:69
+msgid "Recent"
+msgstr ""
+
+#: ../functions/widgets.php:598
+msgid "Comments"
+msgstr ""
+
+#: ../functions/widgets.php:599
+msgid "Tags"
+msgstr ""
+
+#: ../functions/widgets.php:617
+#: ../functions/widgets.php:636
+#: ../functions/widgets.php:1198
+#: ../functions/widgets.php:1232
+#: ../functions/widgets.php:1266
+#: ../functions/widgets.php:1300
+#: ../functions/widgets.php:1334
+#: ../functions/widgets.php:1798
+#: ../inc/feed.php:1264
+#: ../inc/latest.php:151
+msgid "More"
+msgstr ""
+
+#: ../functions/widgets.php:775
+msgid "Categories"
+msgstr ""
+
+#: ../functions/widgets.php:776
+msgid "Pages"
+msgstr ""
+
+#: ../functions/widgets.php:777
+msgid "Archives"
+msgstr ""
+
+#: ../functions/widgets.php:1162
+msgid "Movies"
+msgstr ""
+
+#: ../functions/widgets.php:1163
+msgid "Music"
+msgstr ""
+
+#: ../functions/widgets.php:1164
+msgid "Games"
+msgstr ""
+
+#: ../functions/widgets.php:1165
+msgid "Books"
+msgstr ""
+
+#: ../functions/widgets.php:1166
+msgid "Products"
+msgstr ""
+
+#: ../functions/widgets.php:2035
+msgid "Enter your email address"
+msgstr ""
+
+#: ../inc/archive.php:63
+msgid "Posts Tagged &#8216;"
+msgstr ""
+
+#: ../inc/archive.php:65
+#: ../inc/archive.php:67
+#: ../inc/archive.php:69
+msgid "Archive for "
+msgstr ""
+
+#: ../inc/archive.php:71
+msgid "Author Archive"
+msgstr ""
+
+#: ../inc/archive.php:73
+msgid "Blog Archives"
+msgstr ""
+
+#: ../inc/archive.php:98
+#: ../inc/category.php:76
+#: ../inc/feed.php:206
+msgid "Newest posts in all categories"
+msgstr ""
+
+#: ../inc/archive.php:104
+#: ../inc/category.php:82
+#: ../inc/feed.php:212
+msgid "Newest posts sorted by most commented"
+msgstr ""
+
+#: ../inc/archive.php:104
+#: ../inc/book-review.php:81
+#: ../inc/category.php:82
+#: ../inc/feed.php:212
+#: ../inc/game-review.php:81
+#: ../inc/movie-review.php:81
+#: ../inc/music-review.php:81
+msgid "Most Commented"
+msgstr ""
+
+#: ../inc/archive.php:110
+#: ../inc/category.php:88
+#: ../inc/feed.php:218
+msgid "Randomize all posts"
+msgstr ""
+
+#: ../inc/archive.php:110
+#: ../inc/book-review.php:87
+#: ../inc/category.php:88
+#: ../inc/feed.php:218
+#: ../inc/game-review.php:87
+#: ../inc/movie-review.php:87
+#: ../inc/music-review.php:87
+msgid "Random"
+msgstr ""
+
+#: ../inc/archive.php:298
+#: ../inc/archive.php:646
+#: ../inc/archive.php:998
+#: ../inc/category.php:277
+#: ../inc/category.php:625
+#: ../inc/category.php:975
+#: ../inc/feed.php:408
+#: ../inc/feed.php:766
+#: ../inc/feed.php:1120
+#: ../inc/feed.php:1262
+#: ../inc/latest.php:50
+msgid "View more articles in "
+msgstr ""
+
+#: ../inc/archive.php:413
+#: ../inc/archive.php:761
+#: ../inc/category.php:392
+#: ../inc/category.php:740
+#: ../inc/feed-product-review.php:322
+#: ../inc/feed.php:523
+#: ../inc/feed.php:881
+msgid "Category: "
+msgstr ""
+
+#: ../inc/archive.php:438
+#: ../inc/archive.php:786
+#: ../inc/book-review.php:271
+#: ../inc/book-review.php:471
+#: ../inc/category.php:417
+#: ../inc/category.php:765
+#: ../inc/feed-book-review.php:386
+#: ../inc/feed-game-review.php:385
+#: ../inc/feed-movie-review.php:385
+#: ../inc/feed-music-review.php:386
+#: ../inc/feed-product-review.php:341
+#: ../inc/feed.php:548
+#: ../inc/feed.php:906
+#: ../inc/game-review.php:271
+#: ../inc/game-review.php:469
+#: ../inc/movie-review.php:271
+#: ../inc/movie-review.php:469
+#: ../inc/music-review.php:271
+#: ../inc/music-review.php:469
+msgid "by"
+msgstr ""
+
+#: ../inc/archive.php:460
+#: ../inc/archive.php:808
+#: ../inc/archive.php:1020
+#: ../inc/book-review.php:291
+#: ../inc/book-review.php:491
+#: ../inc/book-review.php:657
+#: ../inc/category.php:439
+#: ../inc/category.php:787
+#: ../inc/category.php:997
+#: ../inc/feed-book-review.php:406
+#: ../inc/feed-game-review.php:405
+#: ../inc/feed-movie-review.php:405
+#: ../inc/feed-music-review.php:406
+#: ../inc/feed-product-review.php:361
+#: ../inc/feed.php:578
+#: ../inc/feed.php:928
+#: ../inc/feed.php:1142
+#: ../inc/game-review.php:291
+#: ../inc/game-review.php:489
+#: ../inc/game-review.php:653
+#: ../inc/movie-review.php:291
+#: ../inc/movie-review.php:489
+#: ../inc/movie-review.php:653
+#: ../inc/music-review.php:291
+#: ../inc/music-review.php:489
+#: ../inc/music-review.php:653
+msgid "Full Review"
+msgstr ""
+
+#: ../inc/archive.php:464
+#: ../inc/archive.php:812
+#: ../inc/archive.php:1024
+#: ../inc/category.php:443
+#: ../inc/category.php:791
+#: ../inc/category.php:1001
+#: ../inc/feed.php:582
+#: ../inc/feed.php:932
+#: ../inc/feed.php:1146
+msgid "Full Story"
+msgstr ""
+
+#: ../inc/archive.php:984
+#: ../inc/book-review.php:597
+#: ../inc/feed.php:1106
+#: ../inc/game-review.php:593
+#: ../inc/movie-review.php:593
+#: ../inc/music-review.php:593
+msgid "comments"
+msgstr ""
+
+#: ../inc/archive.php:1004
+#: ../inc/category.php:981
+#: ../inc/feed.php:1126
+msgid "Posted "
+msgstr ""
+
+#: ../inc/book-review.php:63
+msgid "Book Reviews:"
+msgstr ""
+
+#: ../inc/book-review.php:69
+msgid "Newest book reviews for all authors"
+msgstr ""
+
+#: ../inc/book-review.php:75
+msgid "Highest rated books for all authors"
+msgstr ""
+
+#: ../inc/book-review.php:75
+#: ../inc/game-review.php:75
+#: ../inc/movie-review.php:75
+#: ../inc/music-review.php:75
+msgid "Highest Rated"
+msgstr ""
+
+#: ../inc/book-review.php:81
+#: ../inc/game-review.php:81
+#: ../inc/movie-review.php:81
+#: ../inc/music-review.php:81
+msgid "Newest reviews sorted by most commented"
+msgstr ""
+
+#: ../inc/book-review.php:87
+msgid "Randomize all book reviews"
+msgstr ""
+
+#: ../inc/breaking.php:90
+msgid "Toggle this panel"
+msgstr ""
+
+#: ../inc/feed-book-review.php:179
+#: ../inc/feed-game-review.php:178
+#: ../inc/feed-movie-review.php:178
+#: ../inc/feed-music-review.php:179
+#: ../inc/feed-music-review.php:199
+msgid "Show "
+msgstr ""
+
+#: ../inc/feed-book-review.php:179
+#: ../inc/feed-book-review.php:189
+#: ../inc/feed-book-review.php:199
+msgid " Book Reviews"
+msgstr ""
+
+#: ../inc/feed-book-review.php:189
+#: ../inc/feed-book-review.php:199
+#: ../inc/feed-game-review.php:188
+#: ../inc/feed-game-review.php:198
+#: ../inc/feed-movie-review.php:188
+#: ../inc/feed-movie-review.php:198
+#: ../inc/feed-music-review.php:189
+#: ../inc/feed-product-review.php:154
+msgid "Show reviews for "
+msgstr ""
+
+#: ../inc/feed-book-review.php:207
+msgid "Show all book reviews"
+msgstr ""
+
+#: ../inc/feed-book-review.php:207
+msgid "All Book Reviews"
+msgstr ""
+
+#: ../inc/feed-game-review.php:178
+#: ../inc/feed-game-review.php:188
+#: ../inc/feed-game-review.php:198
+msgid " Game Reviews"
+msgstr ""
+
+#: ../inc/feed-game-review.php:206
+msgid "Show all game reviews"
+msgstr ""
+
+#: ../inc/feed-game-review.php:206
+msgid "All Video Game Reviews"
+msgstr ""
+
+#: ../inc/feed-movie-review.php:178
+#: ../inc/feed-movie-review.php:188
+#: ../inc/feed-movie-review.php:198
+msgid " Movie Reviews"
+msgstr ""
+
+#: ../inc/feed-movie-review.php:206
+msgid "Show all movie reviews"
+msgstr ""
+
+#: ../inc/feed-movie-review.php:206
+msgid "All Movie Reviews"
+msgstr ""
+
+#: ../inc/feed-music-review.php:179
+#: ../inc/feed-music-review.php:189
+#: ../inc/feed-music-review.php:199
+msgid " Reviews"
+msgstr ""
+
+#: ../inc/feed-music-review.php:207
+msgid "Show all music reviews"
+msgstr ""
+
+#: ../inc/feed-music-review.php:207
+msgid "All Music Reviews"
+msgstr ""
+
+#: ../inc/feed-product-review.php:144
+msgid "Show product reviews in "
+msgstr ""
+
+#: ../inc/feed-product-review.php:144
+#: ../inc/feed.php:198
+msgid "More from "
+msgstr ""
+
+#: ../inc/feed-product-review.php:154
+msgid "All "
+msgstr ""
+
+#: ../inc/feed-product-review.php:162
+msgid "Show all product reviews"
+msgstr ""
+
+#: ../inc/feed-product-review.php:162
+msgid "All Product Reviews"
+msgstr ""
+
+#: ../inc/feed.php:180
+msgid "Show posts with similar tags"
+msgstr ""
+
+#: ../inc/feed.php:180
+msgid "Related"
+msgstr ""
+
+#: ../inc/feed.php:198
+msgid "Show posts in this category"
+msgstr ""
+
+#: ../inc/feed.php:1126
+msgid " by "
+msgstr ""
+
+#: ../inc/game-review.php:63
+msgid "Video Game Reviews:"
+msgstr ""
+
+#: ../inc/game-review.php:69
+msgid "Newest game reviews in all genres"
+msgstr ""
+
+#: ../inc/game-review.php:75
+msgid "Highest rated games in all genres"
+msgstr ""
+
+#: ../inc/game-review.php:87
+msgid "Randomize all game reviews"
+msgstr ""
+
+#: ../inc/movie-review.php:63
+msgid "Movie Reviews:"
+msgstr ""
+
+#: ../inc/movie-review.php:69
+msgid "Newest movie reviews in all genres"
+msgstr ""
+
+#: ../inc/movie-review.php:75
+msgid "Highest rated movies in all genres"
+msgstr ""
+
+#: ../inc/movie-review.php:87
+msgid "Randomize all movie reviews"
+msgstr ""
+
+#: ../inc/music-review.php:63
+msgid "Music Reviews:"
+msgstr ""
+
+#: ../inc/music-review.php:69
+msgid "Newest music reviews in all genres"
+msgstr ""
+
+#: ../inc/music-review.php:75
+msgid "Highest rated music in all genres"
+msgstr ""
+
+#: ../inc/music-review.php:87
+msgid "Randomize all music reviews"
+msgstr ""
+
+#: ../inc/product-review.php:64
+msgid "Product Reviews:"
+msgstr ""
+
+#: ../inc/product-review.php:70
+msgid "Newest product reviews in all categories"
+msgstr ""
+
+#: ../inc/product-review.php:76
+msgid "Highest rated products in all categories"
+msgstr ""
+
+#: ../inc/product-review.php:88
+msgid "Randomize all product reviews"
+msgstr ""
+
+#: ../inc/search.php:34
+msgid "Search Results"
+msgstr ""
+
+#: ../inc/search.php:184
+msgid "We could not find any results matching the search terms you provided. Please try another search or use the menu above to navigate our site."
+msgstr ""
+
+#: ../inc/sharebox.php:43
+msgid "Share"
+msgstr ""
+
+#: ../inc/social.php:13
+msgid "Subscribe to our RSS feed"
+msgstr ""
+
+#: ../inc/social.php:15
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: ../inc/social.php:17
+msgid "Friend us on Facebook"
+msgstr ""
+
+#: ../inc/taxonomy-book-author.php:49
+#: ../inc/taxonomy-book-genre.php:49
+#: ../inc/taxonomy-book-publisher.php:49
+msgid " Book Reviews:"
+msgstr ""
+
+#: ../inc/taxonomy-book-genre.php:659
+#: ../inc/taxonomy-book-publisher.php:659
+#: ../inc/taxonomy-game-developer.php:659
+#: ../inc/taxonomy-game-genre.php:659
+#: ../inc/taxonomy-game-platform.php:659
+#: ../inc/taxonomy-movie-actor.php:659
+#: ../inc/taxonomy-movie-director.php:659
+#: ../inc/taxonomy-movie-genre.php:659
+#: ../inc/taxonomy-music-artist.php:659
+#: ../inc/taxonomy-music-genre.php:659
+msgid "Full Review &raquo;"
+msgstr ""
+
+#: ../inc/taxonomy-game-developer.php:49
+#: ../inc/taxonomy-game-genre.php:49
+#: ../inc/taxonomy-game-platform.php:49
+msgid " Game Reviews:"
+msgstr ""
+
+#: ../inc/taxonomy-movie-actor.php:49
+#: ../inc/taxonomy-movie-director.php:49
+#: ../inc/taxonomy-movie-genre.php:49
+msgid " Movie Reviews:"
+msgstr ""
+
+#: ../inc/taxonomy-music-artist.php:49
+#: ../inc/taxonomy-music-genre.php:49
+msgid " Music Reviews:"
+msgstr ""
+
+#: ../inc/taxonomy-product-brand.php:49
+msgid " Product Reviews:"
+msgstr ""
+
+#: ../inc/taxonomy-product-category.php:49
+msgid "Reviews of "
+msgstr ""
+
+#: ../inc/taxonomy-product-price.php:49
+msgid "Product Reviews at "
+msgstr ""
+

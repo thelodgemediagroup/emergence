@@ -1,0 +1,15 @@
+#main-menu ul li a {	
+	padding-bottom:18px;
+}
+#main-menu ul li a:hover, 
+#main-menu ul li.current-cat a, 
+#main-menu ul li.current-cat-ancestor a, 
+#main-menu ul li.current-cat-parent a,
+#main-menu ul li.current-category a, 
+#main-menu ul li.current-category-ancestor a, 
+#main-menu ul li.current-category-parent a,
+#main-menu ul li.current-menu-item a,
+#main-menu ul li.current-menu-ancestor a,
+#main-menu ul li.current-menu-parent a {	
+	padding-bottom:18px; 
+}

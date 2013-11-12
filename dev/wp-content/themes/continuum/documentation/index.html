@@ -1,0 +1,1120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Continuum Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+		h4 { margin-top:15px;font-size:1.3em;font-weight:bold; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Continuum&rdquo; Documentation by &ldquo;Outer Spice Web Company&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center"><img src="assets/images/continuum.png" alt="Continuum Logo" /></h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 4/20/2011<br>
+					By: Outer Spice Web Company<br>
+					Email: <a href="bmac@outerspiceweb.com">bmac@outerspiceweb.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, please feel free to email via our user page contact form <a href="http://themeforest.net/user/brianmcculloh" target="_blank">here</a>. Also, you should read the Socket FAQ on ThemeForest since it explains how to do a lot of specific things. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">        	
+        	<li><a href="#gettingstarted">Getting Started</a>
+            	<ol>
+                	<li><a href="#summary">Summary</a></li>
+                    <li><a href="#quickstart">Quick Start Guide</a></li>
+                    <li><a href="#compatibility">Compatibility</a></li>
+                </ol>
+            </li>
+			<li><a href="#htmlStructure">HTML Structure</a>
+            	<ol>
+                	<li><a href="#singlepages">Single Pages</a></li>
+                    <li><a href="#archivepages">Archive Pages</a></li>
+                </ol>
+            </li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+			<li><a href="#psdFiles">PNG Files</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>			
+			<li><a href="#php">PHP Code Explanation</a></li>
+			<li><a href="#userguide">Detailed User Guide</a>
+            	<ol>
+                	<li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#menus">Custom Menus</a></li>
+                    <li><a href="#widgetsandsidebars">Widgets &amp; Sidebars</a></li>
+                    <li><a href="#shortcodes">Shortcodes</a></li>
+                    <li><a href="#pagetemplates">Page Templates</a></li>
+                    <li><a href="#nuances">Tips &amp; Additional Info</a></li>
+                </ol>
+            </li>
+		</ol>
+		
+		<hr>
+        
+        <h3 id="gettingstarted"><strong>A) Getting Started</strong> - <a href="#toc">top</a></h3>
+        
+        <h4 id="summary">Summary</h4>
+        
+        <p>Continuum is best used for magazine-style blogs, but has been built with all types of websites in mind. There are almost 200 options available to you in the theme options page, so you can really customize it to do exactly what you want it to do. However, even if you don't adjust any of the settings and just want to get your website up quickly, Continuum has been built to present your website in a professional manner by default. Following are the essentials for running Continuum, and then if you want to know about anything in more detail, you can find a wealth of information further down this page.</p>
+                       
+        <h4 id="quickstart">Quick Start Guide</h4> 
+        
+        <p>
+        <img class="right" src="assets/images/ss-appearance.jpg" />
+        <b>Installation</b> - To get started, open the ContinuumTheme folder that you downloaded and find the folder named Continuum. Upload this folder into your wp-content/themes/ folder and then activate it in your Wordpress admin panel under "Appearance" >> "Themes". Once Continuum is activated, you'll notice all the custom post types appear in the right hand column (Movie Reviews, Music Reviews, etc.) as well as the Continuum Theme Options page under the "Appearance" menu, which is where all of the theme settings are.</p>
+        
+        <br class="clearer" /><br />
+        
+        <p>
+        <img class="right" src="assets/images/ss-options.jpg" />
+        <b>Theme Options</b> - The Continuum Theme Options page is separated into several tabs. The first tab contains all the information you need to use the options tabs. In addition, every single option is named and described in an intuitive way so that you always know what a setting will do.</p>
+        
+        <br class="clearer" /><br />
+        
+        <p>
+        <img class="right" src="assets/images/ss-reading.jpg" />
+        <b>Your Front Page</b> - On the "Settings" >> "Reading" page for the "Front Page Displays" option, you can either choose "Your latest posts" or "A static page". If you select "A static page", you will want to create a page in Wordpress and select "Home Layout" for the Template. Regardless of the method you choose, all of the layout options for the home page layout are located on the theme options page.</p>
+        
+        <br class="clearer" /><br />
+        
+        <p><b>jQuery Sliders</b> - It is very simple to get posts to show up in the jQuery sliders. Simply tag posts "breaking" (no quotes) to get them to display in the breaking panel at the top of every page, and tag posts "spotlight" (no quotes) to get them to display in the main spotlight slider on the home page.</p>
+        
+        <p>   
+        <img class="right" src="assets/images/ss-menus.jpg" />     
+        <b>Menus</b> - There are three custom menus that you need to setup, which are:        
+        <ol>
+        	<li>Top Menu - The top menu bar which also houses the search box. This is a good place to put your pages.</li>
+            <li>Small Menu - The right-aligned menu that sits directly below the header and directly above the larger menu with the white background. This is a good place to put special pages and/or your review pages.</li>
+            <li>Main Manu - The full-width menu that sits directly above the main content wrapper. This is a good place to put your categories.</li>
+        </ol>
+        
+        By default these menus will display pages, pages, and categories, respectively. That means if you don't go in and setup the custom menus, you will have two menus listing your pages which you probably don't want. Go to "Appearance" >> "Menus" and create your three menus in the panel on the right. Once you have created the menus, add them to the pages using the Theme Locations panel on the left, and click Save.        
+        </p>
+        
+        <br class="clearer" /><br />
+        
+        <p>        
+        <img class="right" src="assets/images/ss-reviews.jpg" />
+        <b>Reviews</b> - Continuum gives you five custom review post types: Movie, Music, Video Game, Book, and Product reviews. You can add reviews similarly to how you add new posts or pages. If you want to add a new Movie Review, for instance, go to "Movie Reviews" >> "Add New", and then fill it out just like a post with the following differences: A) Just like a post lets you select categories, a movie review lets you select genres, directors, and actors (each of which work just like post categories); B) To give your new review a rating, add a custom field named "Rating" with a value of 0 thru 5 (increasing at 0.5 increments); and C) give a brief summary of the positives and negatives of what you are reviewing using a custom field named "Positives" and a custom field named "Negatives", and for the value write the positive/negative text.        
+        </p>
+        
+        <br class="clearer" /><br />
+        
+        <p>  
+        <img class="right" src="assets/images/ss-reviews-template.jpg" />      
+        Now that you know how to add reviews, you need to know how to get them to show up on your site. Using our Movie Reviews example, add a new standard Wordpress page with a title of Movie Reviews. Select the "Reviews - Movies" template. You do not need to put anything in the page content box. All you have to do is add this page to one of your custom menus, and it will automatically find all of your movie reviews and list them on that page. Follow this same method for the other four review types.
+        </p>  
+        
+        <p>
+        <b>Important:</b> You can name the pages whatever you want, but they <b>must</b> have the following page slugs or else some of the widgets will not link to the correct places:
+        <ul>
+        	<li>Movie Reviews: movie-reviews</li>
+            <li>Music Reviews: music-reviews</li>
+            <li>Video Game Reviews: video-game-reviews</li>
+            <li>Book Reviews: book-reviews</li>
+            <li>Product Reviews: product-reviews</li>
+        </ul>
+        </p>
+        
+        <br class="clearer" /><br />      
+        
+        
+        <h4 id="compatibility">Compatibility</h4>
+        
+        <p>Continuum is built with valid XHTML. It is certified compatible with Google Chrome, Mozilla Firefox (3.5, 3.6, and 4), Safari, Opera, and Internet Explorer (7, 8, and 9). Note, however, that the "breaking" slider does not rotate in Opera, and the entire site is pretty slow in Internet Explorer 7. If you want to cater to Opera users, you can simply set the "breaking" slider to only display four posts, which will disable the sliding functionality and Opera users will never know the difference. Continuum was built using Wordpress version 3.1, and has been tested and verified with versions 3.0 - 3.1.1.</p>        
+	
+		<h3 id="htmlStructure"><strong>B) HTML Structure</strong> - <a href="#toc">top</a></h3>
+        
+        <p>Continuum is a 960px fixed-width theme with indented and intuitively spaced HTML. You will find in-line commenting allthroughout the HTML so that you can always figure out what section of the layout you are in. All of the pages in Continuum can be divided into two main types: A) Single pages, and B) List pages.</p>
+        
+        <h4 id="singlepages">Single Pages</h4>
+        
+        <p>"Single Pages" refers to single posts and page templates. Every single page wraps the content in a div called "page-content" and either uses a "left-panel" and "right-panel" div structure (for pages with a sidebar) or just uses a "content" div to hold the main content (for the full-width template). There are two main sections of each page: A) the main content area, which is mentioned above, and B) everything below the main content, including the feed, the comments, and the latest panel. All page templates call the following files:
+        	<ul>
+            	<li><b>header.php</b> - The header file contains all the calls to the CSS and javascript files. It is where you will find all three menus (top menu, small menu, and main menu) as well as the "breaking" slider, logo, and header ad.</li>
+                <li><b>feed.php</b> - The feed contains the most recent posts for pages and the related posts for single post pages. The only exception to this is the review pages, which each call their own specific feed (e.g. feed-book-review.php, feed-movie-review.php, etc.). Note that for each of the feed pages there are three possible layouts, designated as A, B, and C (additionally the feed.php file contains a "D" layout, which displays latest by category).</li>
+                <li><b>latest.php</b> - The latest panel contains the latest posts from four categories that you specify in the theme options page.</li>
+                <li><b>footer.php</b> - The footer contains three custom widget areas that can be administered in the Wordpress widget page.</li>
+            </ul>
+        
+        </p>
+        
+        <h4 id="archivepages">Archive Pages</h4>
+        
+        <p>"Archive Pages" refers to any page that lists a set of posts, such as category.php, archive.php, taxonomy-book-author.php, etc. These pages all wrap their content in a div called "feed-wrapper", which is designed to list posts in a 3 x 3 grid format (or 2 x 1, or 1 x 1, depending on the theme options settings). You will know these pages because they call a function to include a file from the inc/ folder. These files include the same files as the "Single Pages", but they are distinct because they don't actually display any content that you enter into a Wordpress post or page editor. Instead, they are custom built to list a particular type of post.</p>         
+        
+		<p>You will notice there is no "sidebar.php" file in Continuum. That is because there are almost 20 unique types of sidebars. Rather than creating 20 separate files - one for each type of sidebar - the sidebars are included directly in each of the pages that they are assigned to.</p>
+        
+        <hr>
+
+		<h3 id="cssFiles"><strong>C) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+
+		<p>There is a blank custom.css stylesheet included in Continuum that is called after all other stylesheets. The purpose for this stylesheet is so you can do any edits you want to the style in this file instead of editing the default stylesheets so that when you update Continuum your CSS changes will not get overwritten. You can edit this file from within the theme editor in WordPress.</p>
+        
+		<p>The main styles are located in style.css. It is separated into sections and commented well, like so:</p> 
+
+        <pre>        
+        /*************************************************
+        css reset and general setup
+        *************************************************/    
+        </pre>
+        
+        The CSS reset which sets up the style for the theme.
+        
+        <pre>        
+        /*************************************************
+        page backgrounds
+        *************************************************/     
+        </pre>
+        
+        Specifies the images or colors to use for the background selected in the theme options page.
+        
+        <pre>        
+        /*************************************************
+        top bar
+        *************************************************/  
+        </pre>
+        
+        The top gray bar that houses the "top menu" custom menu and the search box (the menu is actually styled in a different file, see below)
+        
+        <pre>
+        /*************************************************
+        breaking
+        *************************************************/
+        </pre>
+        
+        The slider that displays posts tagged "breaking"<br /><br />
+        
+        etc, etc.<br /><br />
+        
+        <p>All other positioning and layout styles are located in the css folder. The main style.css file clarifies in-line which file inside the css folder styles which elements. There are six files inside the style folder:
+        
+        	<ol>
+            	<li><b>feed.css</b> - styles the feed panels</li>
+                <li><b>ie7.css</b> - specific styles for IE7</li>
+                <li><b>latest.css</b> - styles the latest panel above the footer</li>
+                <li><b>menus.css</b> - styles all three of the custom menus</li>
+                <li><b>shortcodes.css</b> - styles all of the shortcodes you can include in a post or page</li>
+                <li><b>spotlight.css</b> - styles the spotlight slider that displays on the home page templates (all three variations)</li>
+            </ol>                              
+        
+        </p>
+
+		<hr>	
+        	
+		<h3 id="javascript"><strong>D) JavaScript</strong> - <a href="#toc">top</a></h3>
+        
+        <p>Caulk imports 15 Javascript files, as follows:</p>
+
+		<ol>
+            <li>jQuery: jQuery is a Javascript library that greatly reduces the amount of code that you must write. </li>
+            <li>jQuery UI: jQuery user-interface plugins which add functionality to the core jQuery framework. </li>
+            <li>Easing plugin: the rotations between slides in the featured and popular areas are accomplished with the AnythingSlider jQuery plugin.</li>
+            <li>Cycle: the jQuery plugin that rotates the testimonials.</li>
+            <li>AnythingSlider plugin: the way that the AnythingSlider animates the rotations in these panels is accomplished with the Easing jQuery plugin.</li>
+            <li>Nivo: one of the three possible spotlight sliders. </li>
+            <li>Superfish: the jQuery plugin that creates fancy menu dropdowns.</li>
+            <li>Cufon: the jQuery plugin for font replacement.</li>
+            <li>Adelle: the js file that contains the Adelle font used by the cufon plugin for font replacement.</li>
+            <li>Gentesque: the js file that contains the Gentesque font used by the cufon plugin for font replacement.</li>
+            <li>TipTip: the js file that adds the hover functionality that explains what links and images do when clicked. </li>
+            <li>Twitter plugin: the latest tweets are loaded via the Twitter plugin.</li>
+            <li>Colorbox: the jQuery plugin used to pull Flickr images.</li>
+            <li>jflickrfeed: another jQuery file that helps with Flickr.</li>
+            <li>custom.js: the file that contains all of the js setup functions. </li>
+        </ol>
+
+		<p>Note: The settings for most of the jQuery plugins are located in the custom.js file, but some of them are located in the header.php file since they require php variables from the theme options page. An explanation of what each setting does is commented in-line. You should only ever need to edit the javascript in the header.php file or the js/custom.js file. For instance, if you want to change the transition method used in the "breaking" slider, you would adjust this code in the header.php file:</p>
+        
+        <pre>
+        jQuery('#breaking').anythingSlider({
+            easing: "easeInOutExpo",        // Anything other than "linear" or "swing" requires the easing plugin
+			...
+        });
+        </pre>
+        
+        <p>You could change it to something like this instead:</p>
+		
+		<pre>
+        jQuery('#breaking').anythingSlider({
+            easing: "easeInOutBack",        // Anything other than "linear" or "swing" requires the easing plugin
+			...
+        });
+        </pre>
+        
+		</ol>
+		
+		<hr>
+		
+		<h3 id="psdFiles"><strong>E) PNG and PSD Files</strong> - <a href="#toc">top</a></h3>
+		
+		<p>Every image used in the Continuum theme has a corresponding layered PNG file located in the main Continuum-Theme folder that you downloaded from ThemeForest, inside of the PNG folder. Look in the source of the code to find the image that you want to edit, and find the corresponding image file located in the PNG folder. Open the file in an image editor that is capable of editing PNG files, such as Adobe Fireworks, edit the file, and export the file to the images folder <b>inside of the continuum theme folder</b> (located inside the main ContinuumTheme folder that you downloaded from ThemeForest). </p>
+        
+        <p>Additionally, to find the image you wish to edit using a more visual approach, open the PSD folder inside the main ContinuumTheme folder that you downloaded from ThemeForest and open the file that corresponds with the page that contains the image you wish to edit. Then, export the image as a PNG file and place it in the images folder <b>inside of the continuum theme folder</b> (located inside the main ContinuumTheme folder that you downloaded from ThemeForest).</p>
+		
+		<hr>
+		
+		<h3 id="credits"><strong>F) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<p>I've used the following images, icons or other files as listed:
+		
+		<ul>
+			<li>Font: Gentesque (http://paulo-silva.kernest.com/fonts/gentesque)</li>
+            <li>Font: Adelle (http://www.fontsquirrel.com/fonts/Adelle-Basic)</li>
+            <li>Background Images: Silk Light Abstract (http://graphicriver.net/item/silk-light-abstract-background/95543)</li>
+            <li>Background Textures: Grungy Abstract Squares (http://webtreats.mysitemyway.com/grungy-abstract-squares-photoshop-patterns/)</li>
+			<li>Icons: Black &amp; White Social Media Icon Set (http://graphicriver.net/item/36-black-white-social-media-icons/136661)</li>
+            <li>Icons: Addictive Flavour (http://www.smashingmagazine.com/2010/04/15/the-ultimate-free-web-designer-s-icon-set-750-icons-incl-psd-sources/)</li>
+            <li>Icons: Reflection (http://www.webdesignerdepot.com/2010/07/200-exclusive-free-icons-reflection/)</li>
+            <li>Icons: Prime - MediaLoot (http://medialoot.com/item/medialoot-prime-60-detailed-vector-icons/)</li>
+            <li>Icons: Function Icon Set (http://wefunction.com/2008/07/function-free-icon-set/)</li>
+		</ul>
+		
+		<hr>
+        
+        <h3 id="php"><strong>G) PHP Code Explanation</strong> - <a href="#toc">top</a></h3>
+        
+        <p>
+        	The main functions.php file in the root continuum folder calls several PHP files (commented in-line) located inside the functions/ folder, which are as follows (in alphabetical order):        
+        	<ul>
+            	<li><b>custom.php</b> - contains the functions which are widely used throughout the theme, such as custom menus and other functions which are standard to Wordpress theme initialization, featured image sizing, tinyMCE button add-ons for the post edit screen, post pagination, comment styling, additional profile fields, and functions that are used by the Continuum page templates like setting up the reviews, recent reactions scroller, get category ID, etc.
+                <li><b>load-templates.php</b> - takes the functions that call files and presents them to the framework.</li>
+                <li><b>meta-boxes.php</b> - displays the custom field descriptions below the post content. </li>
+                <li><b>post-types.php</b> - sets up the custom post types of Movies, Music, Video Games, Books, and Products. </li>
+                <li><b>shortcodes.php</b> - creates all of the shortcodes that are used in the post and page edit screens. </li>
+                <li><b>theme-options.php</b> - calls the variables set in the Continuum theme options page. </li>
+                <li><b>widgets.php</b> - creates the custom sidebars and sets up all the custom widgets used in Continuum. </li>
+    		</ul>
+        </p>
+        
+        <hr>
+        
+        <h3 id="userguide"><strong>H) Detailed User Guide</strong> - <a href="#toc">top</a></h3>
+        
+        <p>Now that you know about the specs of Continuum, let's dive deeper into how it all works. If you are an experienced Wordpress user you were most likely able to get up and running using the Quick Start guide at the beginning of this document. IF you need a little more instruction on how to use Continuum, or if the Quick Start guide left you with further questions, this is where you'll find the answers. The Detailed User Guide also explains more features that weren't mentioned above, such as an explanation of the widgets, custom field values, and shortcodes that come with Continuum.</p>         
+          
+        
+        <h4 id="reviews">Reviews</h4>
+        
+        <p>You can be up and running with your own review site in three easy steps, detailed in this section. Continuum comes with five custom post types, each one a type of review:        
+        	<ol>
+            	<li>Movie Reviews</li>
+                <li>Music Reviews</li>
+                <li>Video Game Reviews</li>
+                <li>Book Reviews</li>
+                <li>Product Reviews</li>
+            </ol>
+        </p>
+        <p>
+        <img class="right" src="assets/images/ss-review-category.jpg" />
+        <h5>Step 1: Setup the custom taxonomies</h5>        
+        You can use all of the reviews together, just a few of them, or none at all. By default they are all active, but you can disable them one by one in the theme options. Each review type has three custom taxonomies (think "categories") that you can assign items from. You can add items to each custom taxonomy in the review menus (pictured to the right) or directly on the add/edit review screen. Here is the list of custom taxonomies along with examples of what you could use for each one:  
+        </p>  
+        <br class="clearer" />        
+        <ul class="floatleft">
+            <li><b>Movies</b>
+                <ul>
+                    <li>Genre
+                        <ul>
+                            <li>Action</li>
+                            <li>Comedy</li>
+                            <li>Drama</li>
+                            <li>...</li>
+                        </ul>
+                    </li>
+                    <li>Director
+                        <ul>
+                            <li>Steven Spielburg</li>
+                            <li>Martin Scorcese</li>
+                            <li>Tim Burton</li>
+                            <li>...</li>
+                        </ul>
+                    </li>
+                    <li>Actor
+                        <ul>
+                            <li>Robert Deniro</li>
+                            <li>Tom Cruise</li>
+                            <li>James Franco</li>
+                            <li>...</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="floatleft">
+            <li><b>Music</b>
+                <ul>
+                    <li>Artist
+                        <ul>
+                            <li>Arcade Fire</li>
+                            <li>The National</li>
+                            <li>Grizzly Bear</li>
+                            <li>...</li>
+                        </ul>
+                    </li>
+                    <li>Genre
+                        <ul>
+                            <li>Indie Rock</li>
+                            <li>Experimental Rock</li>
+                            <li>Folk</li>
+                            <li>...</li>
+                        </ul>
+                    </li>
+                    <li>Type
+                        <ul>
+                            <li>Album</li>
+                            <li>Show</li>
+                            <li>Music Video</li>
+                            <li>...</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="floatleft">
+            <li><b>Video Games</b>
+                <ul>
+                    <li>Genre
+                        <ul>
+                            <li>FPS</li>
+                            <li>Puzzle</li>
+                            <li>Role-Playing</li>
+                            <li>...</li>
+                        </ul>
+                    </li>
+                    <li>Platform
+                        <ul>
+                            <li>PC</li>
+                            <li>Xbox</li>
+                            <li>PS3</li>
+                            <li>...</li>
+                        </ul>
+                    </li>
+                    <li>Developer
+                        <ul>
+                            <li>Capcom</li>
+                            <li>Kaos Studios</li>
+                            <li>Bioware</li>
+                            <li>...</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="floatleft">
+            <li><b>Books</b>
+                <ul>
+                    <li>Author
+                        <ul>
+                            <li>John Grisham</li>
+                            <li>Stieg Larsson</li>
+                            <li>Max Brooks</li>
+                            <li>...</li>
+                        </ul>
+                    </li>
+                    <li>Genre
+                        <ul>
+                            <li>Mystery</li>
+                            <li>Sci-Fi</li>
+                            <li>Post-Apocalyptic</li>
+                            <li>...</li>
+                        </ul>
+                    </li>
+                    <li>Publisher
+                        <ul>
+                            <li>Bantam</li>
+                            <li>Doubleday</li>
+                            <li>Crown</li>
+                            <li>...</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="floatleft">
+            <li><b>Products</b>
+                <ul>
+                    <li>Product Category
+                        <ul>
+                            <li>Audio
+                                <ul>
+                                    <li>Receivers</li>
+                                    <li>Home Theater Speakers</li>
+                                    <li>Car Subwoofers</li>
+                                    <li>...</li>
+                                </ul>
+                            </li>
+                            <li>Video
+                                <ul>
+                                    <li>Video Cameras</li>
+                                    <li>LED LCD TV's</li>
+                                    <li>BluRay Players</li>
+                                    <li>...</li>
+                                </ul>                                
+                            </li>
+                            <li>Automotive
+                                <ul>
+                                    <li>Sedans</li>
+                                    <li>Trucks</li>
+                                    <li>SUV's</li>
+                                    <li>...</li>
+                                </ul>
+                            </li>
+                            <li>...</li>
+                        </ul>
+                    </li>
+                    <li>Price
+                        <ul>
+                            <li>$99</li>
+                            <li>$499</li>
+                            <li>$1999</li>
+                            <li>...</li>
+                        </ul>
+                    </li>
+                    <li>Brand
+                        <ul>
+                            <li>Velodyne</li>
+                            <li>Sunfire</li>
+                            <li>Canon</li>
+                            <li>...</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>  
+        <br class="clearer" />          
+        As you can see demonstrated by the Product Category taxonomy, any of the custom taxonomies can have multiple-levels of categories added. You can even go more than two levels deep if you want. This is designed to help you classify whatever it is that you want to review and organize it in a way that presents as much content to your users as possible.</p>
+        
+        <p>
+        <h5>Step 2: Create the reviews</h5>
+        When adding a new review, enter the title and content, and then assign custom taxonomies from the right-hand column. Then, add a featured image which will display in the review listings as well as the single review page. Finally, give the review the necessary custom fields, which are described in the Continuum Custom Field Guide located on every review edit screen. They are additionally described below:
+        <ul>
+            <li><b>Rating</b> - This is on a scale of 0 to 5 incrementing by 0.5 and will display either a corresponding number of stars or hearts. Stars is the default, but you can set a specific review to display hearts instead by adding the word "hearts" to the custom field value. Here are all of the acceptable values for the rating field: 0, 0 hearts, 0.5, 0.5 hearts, 1, 1 heart, 1.5, 1.5 hearts, 2, 2 hearts, 2.5, 2.5 hearts, 3, 3 hearts, 3.5, 3.5 hearts, 4, 4 hearts, 4.5, 4.5 hearts, 4, 4 hearts. ("hearts" can be capitalized or not, and it can be plural or singular. You can also similarly append "stars" to the rating, but it will do the same thing as just putting a number)               
+            </li>  
+            <li><b>Positives</b> - This is the short summary of the positive aspects of the review (think "pros") and will display in the review overview box which sits to the right of the featured image on the single review page.</li>    
+            <li><b>Negatives</b> - This is the short summary of the negative aspects of the review (think "cons") and will display in the review overview box which sits to the right of the featured image on the single review page.</li>  
+            <li><b>Award</b> - This is an optional value that you can add if you want to call special attention to the review. Enter a text value here such as "Editor's Choice", "Top Pick", "Best Movie Of The Year", or whatever you want. IF you add this custom field, a small award icon will display at the top of the review on the listing pages and the award text will appear in red in the post box. It will also display on the single review page.</li>                    
+        </ul>
+        Here is a screenshot of an example Music review being edited with all of the necessary components added and labeled:  
+        </p>
+        
+        <p>
+        	<img src="assets/images/ss-review-page.jpg" />
+        </p>
+
+        <h5>Step 3: Display the reviews on your site</h5>
+        
+        <p>
+        <img class="right" src="assets/images/ss-reviews-template.jpg" />   
+        Now that you have some reviews created, you'll need to display them on your site. You can inject reviews into your front, category, archive, authors, and search pages by ensuring that the "Inject Reviews" checkbox is checked in the Continuum Options >> Reviews >> General tag.
+        
+        Additionally, if you want to create a page to list posts from a specific review type, you'll need to create a page for each review type that you want to use. We'll use "Music Reviews" as an example. Go to Pages >> Add New and name the page "Music Reviews" or any other title that you want to house the reviews. Then, select "Music Reviews" as the page template and click Publish. You don't need to add any content to the page - it will know to display your music reviews. You can change the layout of the review listings for each review type in the theme options. For example, if you want your review listings pages to list two reviews per line with a sidebar, you would go to Continuum Theme Options >> Reviews >> General Settings and set the Review Listing Layout option to layout "B" (this will affect all five of the review types). Remember, all theme options pages are explained on the Getting Started tab of the theme options page, plus there is a short description next to each option in the options tabs.</p>
+        
+        <p>In addition to creating the review page, you need to create a link to the page by adding it somewhere on your site. A good place to do this is the "Small Menu" custom menu. Go to Appearance >> Menus >> Custom Small Menu, add the page to the list, and click Save.</p>
+        
+        <h4 id="menus">Custom Menus</h4>
+        
+        <p>            
+        <b>Menus</b> - There are three custom menus that are included in the header.php file of Continuum. The position and name of each of the menus is as follows:      
+        <ol>
+        	<li>Top Menu - The top menu bar which also houses the search box. This is a good place to put your pages.</li>
+            <li>Small Menu - The right-aligned menu that sits directly below the header and directly above the larger menu with the white background. This is a good place to put special pages and/or your review pages.</li>
+            <li>Main Manu - The full-width menu that sits directly above the main content wrapper. This is a good place to put your categories.</li>
+        </ol>        
+        <img src="assets/images/ss-menu-positions.jpg" />    
+        </p>
+        
+        <p>        
+        <img class="right" src="assets/images/ss-menus.jpg" />
+        By default these menus will display pages, pages, and categories, respectively. That means if you don't go in and setup the custom menus, you will have two menus listing your pages which you probably don't want. Go to "Appearance" >> "Menus" and click the plus to add a new menu. We'll use the Main Menu as our example. Name the new menu whatever you want, but it is recommended to follow the same naming convention already in place to help you remember which is which, so we suggest naming it something like "Custom Main Menu". Add any pages, posts, categories, or custom links from the panels on the left that you want to display in this menu, and then save it.     
+        </p>
+        
+        <p>Next, find the Main Menu drop down box in the Theme Locations panel on the left and select the name of your new menu (e.g. "Custom Main Menu"), then click Save. The main menu will now display the items that you specifically added to it. Repeat this same process for the other two menus.</p>
+        
+        <br class="clearer" /><br />
+        
+        <h4 id="widgetsandsidebars">Widgets &amp; Sidebars</h4>
+        
+        <p>Continuum comes standard with 11 custom widgets which extend the functionality of Continuum and 19 custom sidebars which allow you to place different widgets on different pages. Once you install the theme, the widgets and sidebars will automatically become available on the Appearance >> Widgets page. The custom widgets are all named beginning with "Continuum...". All of the widgets and sidebars have thorough descriptions that explain what they each do, but we will additionally list them in this section.</p>
+        
+        <h5>Widgets</h5>
+        
+        <p>
+        <ul>
+        	<li><b>Continuum Email Subscribe</b> - Displays a form for users to subscribe to your Feedburner feed via email. Here is a good article explaining <a href="http://netprofitstoday.com/blog/how-to-find-your-feedburner-id/">how to find your feed name</a>.</li>
+            <li><b>Continuum Flickr Feed</b> - Displays the thumbnails from your Flickr account feed.</li>
+            <li><b>Continuum Floating Ad</b> - Insert your adsense or HTML code for two 125px-wide ads that will float next to each other. Tip: you can add as many of these widgets as you want in order to create multiple ad panels on top of each other. Also, the width crops at 125px but the height does not crop, so you can use images of any height.</li>
+            <li><b>Continuum Latest Reviews</b> - Displays a single review type by most recent or highest rated. Add multiple widgets for each review type.</li>
+            <li><b>Continuum Latest Review Tabs</b> - Displays reviews by most recent or highest rated in a jQuery tabbed format.</li>
+            <li><b>Continuum Latest Tweets</b> - Displays your latest Tweets. Note: title, profile link, and timestamp settings will not affect the Spotlight Right widget area. Change the title of the Spotlight Right widget area via the Continuum Options.</li>
+            <li><b>Continuum Page &amp; Archive Tabs</b> - Displays pages, categories, and archives in a jQuery tabbed format. Note: category and page lists are only styled up to 3 levels deep. You can display more than 3 levels of categories and pages if you want to, but anything deeper than the 3rd level will look as though it's part of the 3rd level itself. If you really do have more than 3 levels of categories, I salute you!</li>
+            <li><b>Continuum Post Tabs</b> - Displays posts, comments, and tags in a jQuery tabbed format.</li>
+            <li><b>Continuum Recent Reactions</b> - Displays your recent comments in a vertically scrolling list.</li>
+            <li><b>Continuum Review Category Tabs</b> - Displays review categories in a jQuery tabbed format.</li>
+            <li><b>Continuum Unwrapped Text</b> - Displays arbritrary text of HTML just like the standard Text widget, but this one does not include the header bar and wrapper style - just a blank canvas for content.</li>
+        </ul>
+        </p>
+        
+        <h5>Sidebars</h5>
+        
+        <p>
+        <ul>
+        	<li><b>Spotlight Right</b> - These widgets appear in the right of the spotlight area. Leave this panel blank to display the Recent Reactions comment scroller.</li>
+            <li><b>Sidebar Feed</b> - These widgets appear in the right sidebar of the feed (if specified in the Continuum options page)</li>
+            <li><b>Sidebar Default</b> - This is the default sidebar that will appear on every page (unless specified differently in the Continuum options page)</li>
+            <li><b>Sidebar Page</b> - This is the sidebar that will appear only on pages (if specified in the Continuum options page)</li>
+            <li><b>Sidebar Category</b> - This is the sidebar that will appear only on a category listing page (if specified in the Continuum options page)</li>
+            <li><b>Sidebar Comments</b> - These widgets appear in the right sidebar of the comments section.</li>
+            <li><b>Sidebar Archive</b> - These widgets appear in the right sidebar of the archive pages.</li>
+            <li><b>Sidebar Auythor</b> - These widgets appear in the right sidebar of the author pages.</li>
+            <li><b>Sidebar All Reviews</b> - These widgets appear in the right sidebar of all review pages.</li>
+            <li><b>Sidebar Movie Reviews</b> - These widgets appear in the right sidebar of the movie reviews pages.</li>
+            <li><b>Sidebar Music Reviews</b> - These widgets appear in the right sidebar of the music reviews pages.</li>
+            <li><b>Sidebar Game Reviews</b> - These widgets appear in the right sidebar of the video game reviews pages.</li>
+            <li><b>Sidebar Book Reviews</b> - These widgets appear in the right sidebar of the book reviews pages.</li>
+            <li><b>Sidebar Product Reviews</b> - These widgets appear in the right sidebar of the product reviews pages.</li>
+            <li><b>Sidebar Search</b> - These widgets appear in the right sidebar of the search results pages.</li>
+            <li><b>Share Panel</b> - This is the widget panel that appears inside the Share box on single post pages.</li>
+            <li><b>Footer Left</b> - These widgets appear in the left panel of the footer.</li>
+            <li><b>Footer Middle</b> - These widgets appear in the middle panel of the footer.</li>
+            <li><b>Footer Right</b> - These widgets appear in the right panel of the footer.</li>
+        </ul>
+        </p>
+        
+        <h4 id="shortcodes">Shortcodes</h4>
+        
+        <p>
+        <img src="assets/images/ss-shortcodes.jpg" /> 
+        </p>
+        
+        <p>Continuum comes with 68 total shortcodes that do anything from create a styled button to group content into jQuery tabs to show your pre-defined sign-off text at the end of each post. In addition to offering these shortcodes, Continuum makes it easier than other themes by adding buttons for each shortcode in the visual editor toolbar as shown in the image above. That way, you don't have to remember what the shortcodes actually are. However, we will list them here so you have a reference, especially since you won't always necessarily use the visual editor toolbar to insert shortcodes. Remeber, you can add shortcodes whether you are viewing the Visual or the HTML editor. Here is a table of shortcodes by name, code, description, and corresponding button on the visual editor:</p>
+        
+        <table class="shortcodes" cellspacing="0" cellpadding="0">
+        	<thead>
+            	<tr>
+                	<th width="120">Name</th>
+                    <th widht="320">Shortcode</th>
+                    <th width="300">Description</th>
+                    <th style="text-align:center;">Button</th>
+                </tr>                
+            </thead>
+        	<tr>
+        		<td class="ssname">Dropcap</td>
+                <td class="sscode">[dropcap]...[/dropcap]</td>
+                <td class="ssdesc">Use on first letter of paragraph to make it larger</td>
+                <td class="ssbtn"><img src="assets/images/ss-shortcode-dropcap.jpg" /></td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Divider</td>
+                <td class="sscode">[divider]</td>
+                <td class="ssdesc">Adds a light grey dividing line with spacing above and below</td>
+                <td class="ssbtn"><img src="assets/images/ss-shortcode-divider.jpg" /></td>
+ 			</tr>  
+            <tr>
+        		<td class="ssname">Quote</td>
+                <td class="sscode">[quote]...[/quote]</td>
+                <td class="ssdesc">Indents text inside a styled quote box</td>
+                <td class="ssbtn"><img src="assets/images/ss-shortcode-quote.jpg" /></td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Left Pullquote</td>
+                <td class="sscode">[pullquote_left]...[/pullquote_left]</td>
+                <td class="ssdesc">Floats a block of text inside a styled quote box to the left of the content</td>
+                <td class="ssbtn"><img src="assets/images/ss-shortcode-pullquote-left.jpg" /></td>
+ 			</tr>   
+            <tr>
+        		<td class="ssname">Right Pullquote</td>
+                <td class="sscode">[pullquote_right]...[/pullquote_right]</td>
+                <td class="ssdesc">Floats a block of text inside a styled quote box to the right of the content</td>
+                <td class="ssbtn"><img src="assets/images/ss-shortcode-pullquote-right.jpg" /></td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Dark Box</td>
+                <td class="sscode">[box_dark]...[/box_dark]</td>
+                <td class="ssdesc">Wraps content inside a styled box with light text on dark background</td>
+                <td class="ssbtn"><img src="assets/images/ss-shortcode-box-dark.jpg" /></td>
+ 			</tr>  
+            <tr>
+        		<td class="ssname">Light Box</td>
+                <td class="sscode">[box_light]...[/box_light]</td>
+                <td class="ssdesc">Wraps content inside a styled box with dark text on light background</td>
+                <td class="ssbtn"><img src="assets/images/ss-shortcode-box-light.jpg" /></td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Simple Toggle</td>
+                <td class="sscode">[toggle_simple title="Title" width="Width"]...[/toggle_simple]</td>
+                <td class="ssdesc">Displays the text inside the title attribute with a plus icon that, when clicked, toggles display of the rest of the content within the shortcode using a jQuery transition. You only need to include the width if you want the toggle to have a width other than 600px.</td>
+                <td class="ssbtn"><img src="assets/images/ss-shortcode-toggle-simple.jpg" /></td>
+ 			</tr>    
+            <tr>
+        		<td class="ssname">Box Toggle</td>
+                <td class="sscode">[toggle_box title="Title" width="Width"]...[/toggle_box]</td>
+                <td class="ssdesc">Same as Simple Toggle but additionally wraps the toggle in a styled box</td>
+                <td class="ssbtn"><img src="assets/images/ss-shortcode-toggle-box.jpg" /></td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Tabs</td>
+                <td class="sscode">
+                	[tabgroup]
+                    <ul style="list-style-type:none;margin-bottom:0px;">
+                        <li>[tab title="Title"]...[/tab]</li>
+                        <li>[tab title="Title"]...[/tab]</li>
+                        <li>[tab title="Title"]...[/tab]</li>
+                    </ul>                        
+                    [/tabgroup]
+                    </td>
+                <td class="ssdesc">Wraps content into separate styled tabs that, when clicked, tab between content using a jQuery transition. <b>Important:</b> you can only add one Tabs shortcode to a page, or else the tab functionality will break (will not affect tabbed widgets in the sidebars)</td>
+                <td class="ssbtn"><img src="assets/images/ss-shortcode-tabs.jpg" /></td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">Signoff</td>
+                <td class="sscode">[signoff]</td>
+                <td class="ssdesc">Adds the text from the Signoff option (theme options >> miscellaneous tab) inside a styled box with a nice "info" icon</td>
+                <td class="ssbtn"><img src="assets/images/ss-shortcode-signoff.jpg" /></td>
+ 			</tr>
+            <tr class="even">
+            	<td class="section" colspan="2">
+                	Columns
+                </td>
+                <td class="ssdesc">Divides content into columns of varying widths</td>
+                <td class="ssbtn"><img src="assets/images/ss-shortcode-columns.jpg" /></td>
+            </tr> 
+            <tr>
+        		<td class="ssname">One Third</td>
+                <td class="sscode">[one_third]...[/one_third]</td>
+                <td class="ssdesc"></td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">One Third Last</td>
+                <td class="sscode">[one_third_last]...[/one_third_last]</td>
+                <td class="ssdesc"></td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">Two Thirds</td>
+                <td class="sscode">[two_third]...[/two_third]</td>
+                <td class="ssdesc"></td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Two Thirds Last</td>
+                <td class="sscode">[two_third_last]...[/two_third_last]</td>
+                <td class="ssdesc"></td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">One Half</td>
+                <td class="sscode">[one_half]...[/one_half]</td>
+                <td class="ssdesc"></td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">One Half Last</td>
+                <td class="sscode">[one_half_last]...[/one_half_last]</td>
+                <td class="ssdesc"></td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">One Fourth</td>
+                <td class="sscode">[one_fourth]...[/one_fourth]</td>
+                <td class="ssdesc"></td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">One Fourth Last</td>
+                <td class="sscode">[one_fourth_last]...[/one_fourth_last]</td>
+                <td class="ssdesc"></td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">Three Fourths</td>
+                <td class="sscode">[three_fourth]...[/three_fourth]</td>
+                <td class="ssdesc"></td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Three Fourths Last</td>
+                <td class="sscode">[three_fourth_last]...[/three_fourth_last]</td>
+                <td class="ssdesc"></td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">One Fifth</td>
+                <td class="sscode">[one_fifth]...[/one_fifth]</td>
+                <td class="ssdesc"></td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">One Fifth Last</td>
+                <td class="sscode">[one_fifth_last]...[/one_fifth_last]</td>
+                <td class="ssdesc"></td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">Two Fifths</td>
+                <td class="sscode">[two_fifth]...[/two_fifth]</td>
+                <td class="ssdesc"></td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Two Fifths Last</td>
+                <td class="sscode">[two_fifth_last]...[/two_fifth_last]</td>
+                <td class="ssdesc"></td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">Three Fifths</td>
+                <td class="sscode">[three_fifth]...[/three_fifth]</td>
+                <td class="ssdesc"></td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Three Fifths Last</td>
+                <td class="sscode">[three_fifth_last]...[/three_fifth_last]</td>
+                <td class="ssdesc"></td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">Four Fifths</td>
+                <td class="sscode">[four_fifth]...[/four_fifth]</td>
+                <td class="ssdesc"></td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Four Fifths Last</td>
+                <td class="sscode">[four_fifth_last]...[/four_fifth_last]</td>
+                <td class="ssdesc"></td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">One Sixth</td>
+                <td class="sscode">[one_sixth]...[/one_sixth]</td>
+                <td class="ssdesc"></td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">One Sixth Last</td>
+                <td class="sscode">[one_sixth_last]...[/one_sixth_last]</td>
+                <td class="ssdesc"></td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">Five Sixths</td>
+                <td class="sscode">[five_sixth]...[/five_sixth]</td>
+                <td class="ssdesc"></td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Five Sixths Last</td>
+                <td class="sscode">[five_sixth_last]...[/five_sixth_last]</td>
+                <td class="ssdesc"></td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr>
+            <tr>
+            	<td class="section" colspan="2">
+                	Small Buttons
+                </td>
+                <td class="ssdesc">Adds a small linkable button to the page</td>
+                <td class="ssbtn"><img src="assets/images/ss-shortcode-small-buttons.jpg" /></td>
+            </tr> 
+            <tr class="even">
+        		<td class="ssname">Light Grey Button</td>
+                <td class="sscode">[button link="URL" variation="lightgrey"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">Grey Button</td>
+                <td class="sscode">[button link="URL" variation="grey"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Dark Grey Button</td>
+                <td class="sscode">[button link="URL" variation="darkgrey"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">Black Button</td>
+                <td class="sscode">[button link="URL" variation="black"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Slate Button</td>
+                <td class="sscode">[button link="URL" variation="slate"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">Blue Button</td>
+                <td class="sscode">[button link="URL" variation="blue"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Sky Button</td>
+                <td class="sscode">[button link="URL" variation="sky"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">Green Button</td>
+                <td class="sscode">[button link="URL" variation="green"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Moss Button</td>
+                <td class="sscode">[button link="URL" variation="moss"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">Red Button</td>
+                <td class="sscode">[button link="URL" variation="red"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Rust Button</td>
+                <td class="sscode">[button link="URL" variation="rust"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">Brown Button</td>
+                <td class="sscode">[button link="URL" variation="brown"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Pink Button</td>
+                <td class="sscode">[button link="URL" variation="pink"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">Purple Button</td>
+                <td class="sscode">[button link="URL" variation="purple"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+            	<td class="section" colspan="2">
+                	Large Buttons
+                </td>
+                <td class="ssdesc">Adds a large linkable button to the page</td>
+                <td class="ssbtn"><img src="assets/images/ss-shortcode-large-buttons.jpg" /></td>
+            </tr> 
+            <tr>
+        		<td class="ssname">Light Grey Button</td>
+                <td class="sscode">[button link="URL" variation="lightgrey" size="large"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Grey Button</td>
+                <td class="sscode">[button link="URL" variation="grey" size="large"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">Dark Grey Button</td>
+                <td class="sscode">[button link="URL" variation="darkgrey" size="large"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Black Button</td>
+                <td class="sscode">[button link="URL" variation="black" size="large"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">Slate Button</td>
+                <td class="sscode">[button link="URL" variation="slate" size="large"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Blue Button</td>
+                <td class="sscode">[button link="URL" variation="blue" size="large"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">Sky Button</td>
+                <td class="sscode">[button link="URL" variation="sky" size="large"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Green Button</td>
+                <td class="sscode">[button link="URL" variation="green" size="large"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">Moss Button</td>
+                <td class="sscode">[button link="URL" variation="moss" size="large"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Red Button</td>
+                <td class="sscode">[button link="URL" variation="red" size="large"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">Rust Button</td>
+                <td class="sscode">[button link="URL" variation="rust" size="large"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Brown Button</td>
+                <td class="sscode">[button link="URL" variation="brown" size="large"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">Pink Button</td>
+                <td class="sscode">[button link="URL" variation="pink" size="large"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Purple Button</td>
+                <td class="sscode">[button link="URL" variation="purple" size="large"]...[/button]</td>
+                <td class="ssdesc">&nbsp;</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr>
+            <tr>
+            	<td class="section" colspan="2">
+                	Lists
+                </td>
+                <td class="ssdesc">Wraps around a list to give it a different bullet</td>
+                <td class="ssbtn"><img src="assets/images/ss-shortcode-lists.jpg" /></td>
+            </tr> 
+            <tr class="even">
+        		<td class="ssname">Fancy List</td>
+                <td class="sscode">[fancylist]bullet list[/fancylist]</td>
+                <td class="ssdesc">Bullets become black minimal arrows</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">Arrow List</td>
+                <td class="sscode">[arrowlist]bullet list[/arrowlist]</td>
+                <td class="ssdesc">Bullets become green standard arrows</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Check List</td>
+                <td class="sscode">[checklist]bullet list[/checklist]</td>
+                <td class="ssdesc">Bullets become checkmarks</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">Star List</td>
+                <td class="sscode">[starlist]bullet list[/starlist]</td>
+                <td class="ssdesc">Bullets become stars</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Plus List</td>
+                <td class="sscode">[pluslist]bullet list[/pluslist]</td>
+                <td class="ssdesc">Bullets become pluses</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr>
+        		<td class="ssname">Heart List</td>
+                <td class="sscode">[heartlist]bullet list[/heartlist]</td>
+                <td class="ssdesc">Bullets become hearts</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+            <tr class="even">
+        		<td class="ssname">Info List</td>
+                <td class="sscode">[infolist]bullet list[/infolist]</td>
+                <td class="ssdesc">Bullets become info icons</td>
+                <td class="ssbtn">&nbsp;</td>
+ 			</tr> 
+        </table>
+        
+        <p>
+        <em>Note: "..." indicates where you should put your content inside of the shortcode. For Lists, where it says "bullet list", put a regular bulleted or numbered list.</em>
+        </p>
+       
+        
+        <h4 id="pagetemplates">Page Templates</h4>
+        
+        <p>Continuum comes with nine page templates that you can assign to a page using the Page Attributes >> Template drop down when editing a page. Some of them have already been mentioned in this document, but we will list them again here so that all of the information on page templates can be in one place:</p>
+        
+        <ol>
+        	<li><b>Default Template</b> - Displays page content on the left, with a sidebar on the right, "The Feed" below the page content, and "The Latest" panel above the footer. You can specify a Unique Pages Sidebar, hide "The Feed", and hide "The Latest" panel in Continuum Theme Options >> Page Layouts >> Other Pages. You can also adjust settings for individual pages using custom fields (see the Continuum Custom Field Guide for options - located on the page edit screen)</li>
+            <li><b>Authors Page</b> - Lists all authors inside styled panels on the left, with a sidebar on the right, and "The Latest" panel above the footer. You can specify a Unique Authors Sidebar and hide "The Latest" panel in Continuum Theme Options >> Page Layouts >> Other Pages. You do not need to enter anything for the page content.</li>
+            <li><b>Full Width</b> - Same as Default Template except it does not display the sidebar on the right. Uses the same settings from the Continuum Theme Options as the Default Template.</li>
+            <li><b>Home Layout</b> - Displays the Spotlight slider at the top of the page, followed by "The Latest" panel, and then "The Feed". You can adjust settings for this template in Continuum Theme Options >> Front Page.</li>
+            <li><b>Reviews - Books</b> - Displays latest posts from the Book Reviews post type in a grid format. You can adjust settings for this template in Continuum Theme Options >> Reviews >> General Settings. You do not need to enter anything for the page content.</li>
+            <li><b>Reviews - Movies</b> - Displays latest posts from the Movie Reviews post type in a grid format. You can adjust settings for this template in Continuum Theme Options >> Reviews >> General Settings. You do not need to enter anything for the page content.</li>
+            <li><b>Reviews - Music</b> - Displays latest posts from the Music Reviews post type in a grid format. You can adjust settings for this template in Continuum Theme Options >> Reviews >> General Settings. You do not need to enter anything for the page content.</li>
+            <li><b>Reviews - Products</b> - Displays latest posts from the Product Reviews post type in a grid format. You can adjust settings for this template in Continuum Theme Options >> Reviews >> General Settings. You do not need to enter anything for the page content.</li>
+            <li><b>Reviews - Video Games</b> - Displays latest posts from the Video Game Reviews post type in a grid format. You can adjust settings for this template in Continuum Theme Options >> Reviews >> General Settings. You do not need to enter anything for the page content.</li>
+        </ol>
+        
+        <h4 id="nuances">Tips &amp; Additional Info</h4>
+        
+        <p>This section gives helpful tips and additional information for using Continuum, including specific nuances and quirks that affect the general functionality of Continuum which might not be obvious after having read the other sections of this guide.</p>
+        
+        <ul>
+        	<li><b>Posts per page</b> - The setting on the Settings >> Reading page for "Blog pages show at most" does not affect the number of posts shown on any of the pages in Continuum. Rather, there are several places in the Continuum Theme Options for specifying "posts per page" for specific sections of the theme. Settings are each described on the options page. <b>However, this setting must be set to the same number as the Posts Per Page setting in Continuum Options >> Page Layouts >> Archive Pages and Category Archive Pages.</b></li>
+            <li><b>Permalinks</b> - Because of the way the Continuum feed framework works, permalink settings cannot be default. If permalinks are set to the default setting, some of the pages may not display correctly.</li>
+            <li><b>Authors page</b> - Don't forget to add the authors page to one of your custom menus so users can see your list of authors. This requires that you create a page and give it the Authors Page template (you can name this page whatever you want - we recommend "Contributors" or "Authors").</li>
+            <li><b>Review Labels</b> - You can change the text of the label for the Positives and Negatives for reviews for each review type. So, for instance, for products you can have "Pros" and "Cons", and for movies you can have "The Good" and "The Bad". See theme options for further details.</li>
+            <li><b>Review Page Slugs</b> - Remember, you <b>must</b> follow a strict naming convention for your review page slugs. The slugs for each of the review types must be as follows: movie-reviews, music-reviews, video-game-reviews, book-reviews, product-reviews. If you do not give them the correct slugs, some areas of the theme will not link to the correct places, such as the review sidebar widgets.</li>
+            <li><b>Ads</b> - Continuum has an extensive ad framework built in. For the ads, it is important to note that you must enter HTML into the ad box, not simply an image URL. See theme options for further details.</li>
+            <li><b>Random Article Button</b> - The random article button to the right of the main menu loads a random article from your regular posts. It is not able to load a random review in this version.</li>   
+            <li><b>Social Links</b> - You enter your Twitter, Facebook, Flickr, and RSS feed information in Continuum Theme Options >> Miscellaneous. However, for the Continuum Email Subscribe widget, you enter your Feedburner Feed Name <b>directly in the widget settings.</b></li>    
+            <li><b>Custom Fields</b> - there are a wealth of custom fields available so you can customize individual pages. Every post, page, and review edit screen has a Continuum Custom Field Guide that explains each and every custom field available.</li> 
+            <li><b>Rebuilding Thumbnails</b> - Continuum automatically resizes and crops your images into several different sizes so that there will be an appropriately sized image to fit all of the various thumbnail areas. After installing Continuum, any image you upload will be appropriately sized into all the various sizes. However, if you are installing Continuum onto an existing WordPress installation with images previously uploaded, the correct sizes for your images will not exist to suit Continuum. Not to worry, there is a plugin that you can install that will fix all of your previously uploaded images. Install the AJAX Thumbnail Rebuild plugin, located here:  http://wordpress.org/extend/plugins/ajax-thumbnail-rebuild/. Once you install it, run the plugin and it will automatically resize all of your images. If you have a large amount of images, just let it run until it's finished as it may take some time to complete.</li>             
+        </ul>
+                
+    	<hr>
+		
+		<p>Once again, thank you so much for purchasing this theme. We would be glad to help you if you have any questions relating to this theme. No guarantees, but we'll do our best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p class="append-bottom alt large"><strong>Outer Spice Web Company</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

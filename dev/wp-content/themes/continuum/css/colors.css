@@ -1,0 +1,329 @@
+/*************************************************
+page backgrounds
+*************************************************/
+.light-lithium {background:#D1D9DD}
+.light-xenon {background:#CDD0DA}
+.light-titanium {background:#DADADA}
+.light-plutonium {background:#EEECDD}
+.light-iridium {background:#DBE1D7}
+.light-magnesium {background:#E2DBE3}
+.dark-lithium {background:#6A7282}
+.dark-xenon {background:#797784}
+.dark-titanium {background:#667371}
+.dark-plutonium {background:#837A6D}
+.dark-iridium {background:#7A8071}
+.dark-magnesium {background:#817270}
+.light-lithium-textured {background:#D1D9DD url(../images/page-backgrounds/light-lithium.jpg) repeat center top;}
+.light-xenon-textured {background:#CDD0DA url(../images/page-backgrounds/light-xenon.jpg) repeat center top;}
+.light-titanium-textured {background:#DADADA url(../images/page-backgrounds/light-titanium.jpg) repeat center top;}
+.light-plutonium-textured {background:#EEECDD url(../images/page-backgrounds/light-plutonium.jpg) repeat center top;}
+.light-iridium-textured {background:#DBE1D7 url(../images/page-backgrounds/light-iridium.jpg) repeat center top;}
+.light-magnesium-textured {background:#E2DBE3 url(../images/page-backgrounds/light-magnesium.jpg) repeat center top;}
+.dark-lithium-textured {background:#6A7282 url(../images/page-backgrounds/dark-lithium.jpg) repeat center top;}
+.dark-xenon-textured {background:#797784 url(../images/page-backgrounds/dark-xenon.jpg) repeat center top;}
+.dark-titanium-textured {background:#667371 url(../images/page-backgrounds/dark-titanium.jpg) repeat center top;}
+.dark-plutonium-textured {background:#837A6D url(../images/page-backgrounds/dark-plutonium.jpg) repeat center top;}
+.dark-iridium-textured {background:#7A8071 url(../images/page-backgrounds/dark-iridium.jpg) repeat center top;}
+.dark-magnesium-textured {background:#817270 url(../images/page-backgrounds/dark-magnesium.jpg) repeat center top;}
+.silk-light-cool-1 {background:#000 url(../images/page-backgrounds/silk-light-cool-1.jpg) no-repeat center top;}
+.silk-light-cool-2 {background:#000 url(../images/page-backgrounds/silk-light-cool-2.jpg) no-repeat center top;}
+.silk-light-warm-1 {background:#000 url(../images/page-backgrounds/silk-light-warm-1.jpg) no-repeat center top;}
+.silk-light-warm-2 {background:#000 url(../images/page-backgrounds/silk-light-warm-2.jpg) no-repeat center top;}
+
+/*************************************************
+colors
+*************************************************/
+/*xenon*/
+/*top menu*/
+.xenon #page-menu ul li ul {background:url(../images/pagemenu-sub-bg-xenon.png) repeat 0px 0px;}
+.xenon #page-menu ul li ul li a:hover,
+.xenon #page-menu ul li ul li ul,
+.xenon #page-menu ul li ul li:hover ul, 
+.xenon #page-menu ul li ul li.sfHover ul {background:url(../images/pagemenu-sub-highlight-xenon.png) repeat 0px 0px;}
+.xenon #page-menu ul li ul li ul li a:hover {background:url(../images/pagemenu-sub-sub-highlight-xenon.png) repeat 0px 0px;}
+/*breaking*/
+.xenon #breaking-tab a {background:url(../images/breaking-tab-xenon.png) no-repeat left bottom;}
+/*small menu*/
+.xenon #small-menu .left-cap {background:url(../images/smallmenu-left-xenon.png) no-repeat 0px 0px;}
+.xenon #small-menu .right-cap {background:url(../images/smallmenu-right-xenon.png) no-repeat 0px 0px;}
+.xenon #small-menu ul {background:url(../images/smallmenu-bg-xenon.png) repeat-x 0px 0px;}
+.xenon #small-menu ul li {border-right:1px solid #3C5A88;border-left:1px solid #4E76B1;}
+.xenon #small-menu ul li ul li {border-left:0px;border-right:0px;}
+.xenon #small-menu ul li a:hover, 
+.xenon #small-menu ul li.current_page_item a, 
+.xenon #small-menu ul li.current_page_ancestor a, 
+.xenon #small-menu ul li.current_page_parent a,
+.xenon #small-menu ul li:hover a, 
+.xenon #small-menu ul li.over a {background:url(../images/smallmenu-highlight-xenon.png) repeat-x center bottom;}
+.xenon #small-menu ul li ul {background:url(../images/pagemenu-sub-bg-xenon.png) repeat 0px 0px;}
+.xenon #small-menu ul li ul li a, 
+.xenon #small-menu ul li:hover ul li a, 
+.xenon #small-menu ul li.over ul li a {background:none;}
+.xenon #small-menu ul li ul li a:hover,
+.xenon #small-menu ul li ul li:hover ul, 
+.xenon #small-menu ul li ul li.sfHover ul {background:url(../images/pagemenu-sub-highlight-xenon.png) repeat 0px 0px;}
+.xenon #small-menu ul li ul li ul li a:hover {background:url(../images/pagemenu-sub-sub-highlight-xenon.png) repeat 0px 0px;}
+/*spotlight*/
+.xenon .ribbon .ribbon-inner {border:1px solid #416294;background:#2C4365;}
+/*sidebar*/
+.xenon .sidebar .header-left {background:url(../images/sidebar-header-left-xenon.png) no-repeat 0px 0px;}
+.xenon .sidebar .header-middle {background:url(../images/sidebar-header-bg-xenon.png) repeat-x 0px 0px;}
+.xenon .sidebar .header-right {background:url(../images/sidebar-header-right-xenon.png) no-repeat 0px 0px;}
+.xenon ul.tabnav li a:hover, 
+.xenon ul.tabnav li a:active, 
+.xenon ul.tabnav li.ui-tabs-selected a {background:url(../images/sidebar-header-bg-xenon.png) repeat-x 0px 0px;}
+/*other*/
+.xenon #latest .category .inner a {background:#2C4365;border-left:1px solid #1F2F47;border-right:1px solid #416294;}
+.xenon #latest .category .inner a:hover {background:#416294;}
+.xenon form.subscribe input.btn {background:#2C4365;}
+.xenon .feed-vertical .article a.category,
+.xenon #page-content .comments-button a,
+.xenon #slider1 .article a.category,
+.xenon #comments #respond #submit,
+.xenon ol.commentlist .reply a,
+.xenon .latest-wrapper .catpanel-wrapper .category,
+.xenon #latest .catpanel .category {background:#3368B7;}
+.xenon .feed-vertical .article a.category:hover,
+.xenon #page-content .comments-button a:hover,
+.xenon #slider1 .article a.category:hover,
+.xenon ol.commentlist .reply a:hover,
+.xenon #latest .catpanel .category:hover {background:#4E81CD;}
+.xenon #page-content .cat-bar .right-wrapper {background:#182538;}
+
+/*titanium*/
+/*top menu*/
+.titanium #page-menu ul li ul {background:url(../images/pagemenu-sub-bg-titanium.png) repeat 0px 0px;}
+.titanium #page-menu ul li ul li a:hover,
+.titanium #page-menu ul li ul li ul,
+.titanium #page-menu ul li ul li:hover ul, 
+.titanium #page-menu ul li ul li.sfHover ul {background:url(../images/pagemenu-sub-highlight-titanium.png) repeat 0px 0px;}
+.titanium #page-menu ul li ul li ul li a:hover {background:url(../images/pagemenu-sub-sub-highlight-titanium.png) repeat 0px 0px;}
+/*breaking*/
+.titanium #breaking-tab a {background:url(../images/breaking-tab-titanium.png) no-repeat left bottom;}
+/*small menu*/
+.titanium #small-menu .left-cap {background:url(../images/smallmenu-left-titanium.png) no-repeat 0px 0px;}
+.titanium #small-menu .right-cap {background:url(../images/smallmenu-right-titanium.png) no-repeat 0px 0px;}
+.titanium #small-menu ul {background:url(../images/smallmenu-bg-titanium.png) repeat-x 0px 0px;}
+.titanium #small-menu ul li {border-right:1px solid #666;border-left:1px solid #999;}
+.titanium #small-menu ul li ul li {border-left:0px;border-right:0px;}
+.titanium #small-menu ul li a:hover, 
+.titanium #small-menu ul li.current_page_item a, 
+.titanium #small-menu ul li.current_page_ancestor a, 
+.titanium #small-menu ul li.current_page_parent a,
+.titanium #small-menu ul li:hover a, 
+.titanium #small-menu ul li.over a {background:url(../images/smallmenu-highlight-titanium.png) repeat-x center bottom;}
+.titanium #small-menu ul li ul {background:url(../images/pagemenu-sub-bg-titanium.png) repeat 0px 0px;}
+.titanium #small-menu ul li ul li a, 
+.titanium #small-menu ul li:hover ul li a, 
+.titanium #small-menu ul li.over ul li a {background:none;}
+.titanium #small-menu ul li ul li a:hover,
+.titanium #small-menu ul li ul li:hover ul, 
+.titanium #small-menu ul li ul li.sfHover ul {background:url(../images/pagemenu-sub-highlight-titanium.png) repeat 0px 0px;}
+.titanium #small-menu ul li ul li ul li a:hover {background:url(../images/pagemenu-sub-sub-highlight-titanium.png) repeat 0px 0px;}
+/*spotlight*/
+.titanium .ribbon .ribbon-inner {border:1px solid #6a6a6a;background:#484848;}
+/*sidebar*/
+.titanium .sidebar .header-left {background:url(../images/sidebar-header-left-titanium.png) no-repeat 0px 0px;}
+.titanium .sidebar .header-middle {background:url(../images/sidebar-header-bg-titanium.png) repeat-x 0px 0px;}
+.titanium .sidebar .header-right {background:url(../images/sidebar-header-right-titanium.png) no-repeat 0px 0px;}
+.titanium ul.tabnav li a:hover, 
+.titanium ul.tabnav li a:active, 
+.titanium ul.tabnav li.ui-tabs-selected a {background:url(../images/sidebar-header-bg-titanium.png) repeat-x 0px 0px;}
+/*other*/
+.titanium #latest .category .inner a {background:#484848;border-left:1px solid #333;border-right:1px solid #6a6a6a;}
+.titanium #latest .category .inner a:hover {background:#6a6a6a;}
+.titanium form.subscribe input.btn {background:#555;}
+.titanium .feed-vertical .article a.category,
+.titanium #page-content .comments-button a,
+.titanium #slider1 .article a.category,
+.titanium #comments #respond #submit,
+.titanium ol.commentlist .reply a,
+.titanium .latest-wrapper .catpanel-wrapper .category,
+.titanium #latest .catpanel .category {background:#555;}
+.titanium .feed-vertical .article a.category:hover,
+.titanium #page-content .comments-button a:hover,
+.titanium #slider1 .article a.category:hover,
+.titanium ol.commentlist .reply a:hover,
+.titanium #latest .catpanel .category:hover {background:#666;}
+.titanium #page-content .cat-bar .right-wrapper {background:#262626;}
+
+/*plutonium*/
+/*top menu*/
+.plutonium #page-menu ul li ul {background:url(../images/pagemenu-sub-bg-plutonium.png) repeat 0px 0px;}
+.plutonium #page-menu ul li ul li a:hover,
+.plutonium #page-menu ul li ul li ul,
+.plutonium #page-menu ul li ul li:hover ul, 
+.plutonium #page-menu ul li ul li.sfHover ul {background:url(../images/pagemenu-sub-highlight-plutonium.png) repeat 0px 0px;}
+.plutonium #page-menu ul li ul li ul li a:hover {background:url(../images/pagemenu-sub-sub-highlight-plutonium.png) repeat 0px 0px;}
+/*breaking*/
+.plutonium #breaking-tab a {background:url(../images/breaking-tab-plutonium.png) no-repeat left bottom;}
+/*small menu*/
+.plutonium #small-menu .left-cap {background:url(../images/smallmenu-left-plutonium.png) no-repeat 0px 0px;}
+.plutonium #small-menu .right-cap {background:url(../images/smallmenu-right-plutonium.png) no-repeat 0px 0px;}
+.plutonium #small-menu ul {background:url(../images/smallmenu-bg-plutonium.png) repeat-x 0px 0px;}
+.plutonium #small-menu ul li {border-right:1px solid #7B3415;border-left:1px solid #C65322;}
+.plutonium #small-menu ul li ul li {border-left:0px;border-right:0px;}
+.plutonium #small-menu ul li a:hover, 
+.plutonium #small-menu ul li.current_page_item a, 
+.plutonium #small-menu ul li.current_page_ancestor a, 
+.plutonium #small-menu ul li.current_page_parent a,
+.plutonium #small-menu ul li:hover a, 
+.plutonium #small-menu ul li.over a {background:url(../images/smallmenu-highlight-plutonium.png) repeat-x center bottom;}
+.plutonium #small-menu ul li ul {background:url(../images/pagemenu-sub-bg-plutonium.png) repeat 0px 0px;}
+.plutonium #small-menu ul li ul li a, 
+.plutonium #small-menu ul li:hover ul li a, 
+.plutonium #small-menu ul li.over ul li a {background:none;}
+.plutonium #small-menu ul li ul li a:hover,
+.plutonium #small-menu ul li ul li:hover ul, 
+.plutonium #small-menu ul li ul li.sfHover ul {background:url(../images/pagemenu-sub-highlight-plutonium.png) repeat 0px 0px;}
+.plutonium #small-menu ul li ul li ul li a:hover {background:url(../images/pagemenu-sub-sub-highlight-plutonium.png) repeat 0px 0px;}
+/*spotlight*/
+.plutonium .ribbon .ribbon-inner {border:1px solid #C45935;background:#98371B;}
+/*sidebar*/
+.plutonium .sidebar .header-left {background:url(../images/sidebar-header-left-plutonium.png) no-repeat 0px 0px;}
+.plutonium .sidebar .header-middle {background:url(../images/sidebar-header-bg-plutonium.png) repeat-x 0px 0px;}
+.plutonium .sidebar .header-right {background:url(../images/sidebar-header-right-plutonium.png) no-repeat 0px 0px;}
+.plutonium ul.tabnav li a:hover, 
+.plutonium ul.tabnav li a:active, 
+.plutonium ul.tabnav li.ui-tabs-selected a {background:url(../images/sidebar-header-bg-plutonium.png) repeat-x 0px 0px;}
+/*other*/
+.plutonium #latest .category .inner a {background:#98371B;border-left:1px solid #6C2713;border-right:1px solid #C65322;}
+.plutonium #latest .category .inner a:hover {background:#E95A1D;}
+.plutonium form.subscribe input.btn {background:#A23511;}
+.plutonium .feed-vertical .article a.category,
+.plutonium #page-content .comments-button a,
+.plutonium #slider1 .article a.category,
+.plutonium #comments #respond #submit,
+.plutonium ol.commentlist .reply a,
+.plutonium .latest-wrapper .catpanel-wrapper .category,
+.plutonium #latest .catpanel .category {background:#E95A1D;}
+.plutonium .feed-vertical .article a.category:hover,
+.plutonium #page-content .comments-button a:hover,
+.plutonium #slider1 .article a.category:hover,
+.plutonium ol.commentlist .reply a:hover,
+.plutonium #latest .catpanel .category:hover {background:#EC713C;}
+.plutonium #page-content .cat-bar .right-wrapper {background:#421409;}
+/*links*/
+.plutonium a { color:#E4512C; }
+.plutonium a:hover { color:#EB795C; } 
+
+/*iridium*/
+/*top menu*/
+.iridium #page-menu ul li ul {background:url(../images/pagemenu-sub-bg-iridium.png) repeat 0px 0px;}
+.iridium #page-menu ul li ul li a:hover,
+.iridium #page-menu ul li ul li ul,
+.iridium #page-menu ul li ul li:hover ul, 
+.iridium #page-menu ul li ul li.sfHover ul {background:url(../images/pagemenu-sub-highlight-iridium.png) repeat 0px 0px;}
+.iridium #page-menu ul li ul li ul li a:hover {background:url(../images/pagemenu-sub-sub-highlight-iridium.png) repeat 0px 0px;}
+/*breaking*/
+.iridium #breaking-tab a {background:url(../images/breaking-tab-iridium.png) no-repeat left bottom;}
+/*small menu*/
+.iridium #small-menu .left-cap {background:url(../images/smallmenu-left-iridium.png) no-repeat 0px 0px;}
+.iridium #small-menu .right-cap {background:url(../images/smallmenu-right-iridium.png) no-repeat 0px 0px;}
+.iridium #small-menu ul {background:url(../images/smallmenu-bg-iridium.png) repeat-x 0px 0px;}
+.iridium #small-menu ul li {border-right:1px solid #3B6B52;border-left:1px solid #519370;}
+.iridium #small-menu ul li ul li {border-left:0px;border-right:0px;}
+.iridium #small-menu ul li a:hover, 
+.iridium #small-menu ul li.current_page_item a, 
+.iridium #small-menu ul li.current_page_ancestor a, 
+.iridium #small-menu ul li.current_page_parent a,
+.iridium #small-menu ul li:hover a, 
+.iridium #small-menu ul li.over a {background:url(../images/smallmenu-highlight-iridium.png) repeat-x center bottom;}
+.iridium #small-menu ul li ul {background:url(../images/pagemenu-sub-bg-iridium.png) repeat 0px 0px;}
+.iridium #small-menu ul li ul li a, 
+.iridium #small-menu ul li:hover ul li a, 
+.iridium #small-menu ul li.over ul li a {background:none;}
+.iridium #small-menu ul li ul li a:hover,
+.iridium #small-menu ul li ul li:hover ul, 
+.iridium #small-menu ul li ul li.sfHover ul {background:url(../images/pagemenu-sub-highlight-iridium.png) repeat 0px 0px;}
+.iridium #small-menu ul li ul li ul li a:hover {background:url(../images/pagemenu-sub-sub-highlight-iridium.png) repeat 0px 0px;}
+/*spotlight*/
+.iridium .ribbon .ribbon-inner {border:1px solid #519370;background:#3B6B52;}
+/*sidebar*/
+.iridium .sidebar .header-left {background:url(../images/sidebar-header-left-iridium.png) no-repeat 0px 0px;}
+.iridium .sidebar .header-middle {background:url(../images/sidebar-header-bg-iridium.png) repeat-x 0px 0px;}
+.iridium .sidebar .header-right {background:url(../images/sidebar-header-right-iridium.png) no-repeat 0px 0px;}
+.iridium ul.tabnav li a:hover, 
+.iridium ul.tabnav li a:active, 
+.iridium ul.tabnav li.ui-tabs-selected a {background:url(../images/sidebar-header-bg-iridium.png) repeat-x 0px 0px;}
+/*other*/
+.iridium #latest .category .inner a {background:#43795C;border-left:1px solid #254434;border-right:1px solid #519370;}
+.iridium #latest .category .inner a:hover {background:#33AD68;}
+.iridium form.subscribe input.btn {background:#31A160;}
+.iridium .feed-vertical .article a.category,
+.iridium #page-content .comments-button a,
+.iridium #slider1 .article a.category,
+.iridium #comments #respond #submit,
+.iridium ol.commentlist .reply a,
+.iridium .latest-wrapper .catpanel-wrapper .category,
+.iridium #latest .catpanel .category {background:#31A160;}
+.iridium .feed-vertical .article a.category:hover,
+.iridium #page-content .comments-button a:hover,
+.iridium #slider1 .article a.category:hover,
+.iridium ol.commentlist .reply a:hover,
+.iridium #latest .catpanel .category:hover {background:#38BC71;}
+.iridium #page-content .cat-bar .right-wrapper {background:#134528;}
+/*links*/
+.iridium a { color:#33AD68; }
+.iridium a:hover { color:#50BD80; }
+
+/*magnesium*/
+/*top menu*/
+.magnesium #page-menu ul li ul {background:url(../images/pagemenu-sub-bg-magnesium.png) repeat 0px 0px;}
+.magnesium #page-menu ul li ul li a:hover,
+.magnesium #page-menu ul li ul li ul,
+.magnesium #page-menu ul li ul li:hover ul, 
+.magnesium #page-menu ul li ul li.sfHover ul {background:url(../images/pagemenu-sub-highlight-magnesium.png) repeat 0px 0px;}
+.magnesium #page-menu ul li ul li ul li a:hover {background:url(../images/pagemenu-sub-sub-highlight-magnesium.png) repeat 0px 0px;}
+/*breaking*/
+.magnesium #breaking-tab a {background:url(../images/breaking-tab-magnesium.png) no-repeat left bottom;}
+/*small menu*/
+.magnesium #small-menu .left-cap {background:url(../images/smallmenu-left-magnesium.png) no-repeat 0px 0px;}
+.magnesium #small-menu .right-cap {background:url(../images/smallmenu-right-magnesium.png) no-repeat 0px 0px;}
+.magnesium #small-menu ul {background:url(../images/smallmenu-bg-magnesium.png) repeat-x 0px 0px;}
+.magnesium #small-menu ul li {border-right:1px solid #792424;border-left:1px solid #B53333;}
+.magnesium #small-menu ul li ul li {border-left:0px;border-right:0px;}
+.magnesium #small-menu ul li a:hover, 
+.magnesium #small-menu ul li.current_page_item a, 
+.magnesium #small-menu ul li.current_page_ancestor a, 
+.magnesium #small-menu ul li.current_page_parent a,
+.magnesium #small-menu ul li:hover a, 
+.magnesium #small-menu ul li.over a {background:url(../images/smallmenu-highlight-magnesium.png) repeat-x center bottom;}
+.magnesium #small-menu ul li ul {background:url(../images/pagemenu-sub-bg-magnesium.png) repeat 0px 0px;}
+.magnesium #small-menu ul li ul li a, 
+.magnesium #small-menu ul li:hover ul li a, 
+.magnesium #small-menu ul li.over ul li a {background:none;}
+.magnesium #small-menu ul li ul li a:hover,
+.magnesium #small-menu ul li ul li:hover ul, 
+.magnesium #small-menu ul li ul li.sfHover ul {background:url(../images/pagemenu-sub-highlight-magnesium.png) repeat 0px 0px;}
+.magnesium #small-menu ul li ul li ul li a:hover {background:url(../images/pagemenu-sub-sub-highlight-magnesium.png) repeat 0px 0px;}
+/*spotlight*/
+.magnesium .ribbon .ribbon-inner {border:1px solid #972C2C;background:#792424;}
+/*sidebar*/
+.magnesium .sidebar .header-left {background:url(../images/sidebar-header-left-magnesium.png) no-repeat 0px 0px;}
+.magnesium .sidebar .header-middle {background:url(../images/sidebar-header-bg-magnesium.png) repeat-x 0px 0px;}
+.magnesium .sidebar .header-right {background:url(../images/sidebar-header-right-magnesium.png) no-repeat 0px 0px;}
+.magnesium ul.tabnav li a:hover, 
+.magnesium ul.tabnav li a:active, 
+.magnesium ul.tabnav li.ui-tabs-selected a {background:url(../images/sidebar-header-bg-magnesium.png) repeat-x 0px 0px;}
+/*other*/
+.magnesium #latest .category .inner a {background:#792424;border-left:1px solid #471515;border-right:1px solid #AC3131;}
+.magnesium #latest .category .inner a:hover {background:#AC3131;}
+.magnesium form.subscribe input.btn {background:#AC3131;}
+.magnesium .feed-vertical .article a.category,
+.magnesium #page-content .comments-button a,
+.magnesium #slider1 .article a.category,
+.magnesium #comments #respond #submit,
+.magnesium ol.commentlist .reply a,
+.magnesium .latest-wrapper .catpanel-wrapper .category,
+.magnesium #latest .catpanel .category {background:#AC3131;}
+.magnesium .feed-vertical .article a.category:hover,
+.magnesium #page-content .comments-button a:hover,
+.magnesium #slider1 .article a.category:hover,
+.magnesium ol.commentlist .reply a:hover,
+.magnesium #latest .catpanel .category:hover {background:#CA3939;}
+.magnesium #page-content .cat-bar .right-wrapper {background:#471515;}
+/*links*/
+.magnesium a { color:#CB5A5F; }
+.magnesium a:hover { color:#E7666C; }
+
