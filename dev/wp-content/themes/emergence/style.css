@@ -1,0 +1,11 @@
+/*
+ Theme Name:     Emergence
+ Theme URI:      http://emergenceearth.com;
+ Description:    Child theme of Continuum customized for Emergence Earth
+ Author:         The Lodge Media Group
+ Author URI:     http://thelodgemediagroup.com
+ Template:       continuum
+ Version:        1.0.0
+*/
+
+@import url("../continuum/style.css");

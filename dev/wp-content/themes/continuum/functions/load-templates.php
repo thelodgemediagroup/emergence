@@ -225,10 +225,13 @@ if ( file_exists( TEMPLATEPATH . '/inc/taxonomy-product-price.php') )
 }
 
 //get sharebox
-function con_get_sharebox() {
-do_action( 'con_get_sharebox' );
-if ( file_exists( TEMPLATEPATH . '/inc/sharebox.php') )
-	load_template( TEMPLATEPATH . '/inc/sharebox.php');
+if (!function_exists('con_get_sharebox'))
+{
+	function con_get_sharebox() {
+	do_action( 'con_get_sharebox' );
+	if ( file_exists( TEMPLATEPATH . '/inc/sharebox.php') )
+		load_template( TEMPLATEPATH . '/inc/sharebox.php');
+	}
 }
 
 //get social links
