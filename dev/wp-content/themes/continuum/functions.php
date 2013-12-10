@@ -29,4 +29,24 @@ require_once(functions . '/meta-boxes.php');
 //notifies users of updates
 require('update-notifier.php');
 
+function my_login_logo() { ?>
+    <style type="text/css">
+        body.login div#login h1 a {
+            background-image: url(<?php echo site_url(); ?>/wp-content/uploads/2013/11/banner_sm.jpg);
+            padding-bottom: 30px;
+        }
+    </style>
+<?php }
+add_action( 'login_enqueue_scripts', 'my_login_logo' );
+
+function my_login_logo_url() {
+    return get_bloginfo( 'url' );
+}
+add_filter( 'login_headerurl', 'my_login_logo_url' );
+
+function my_login_logo_url_title() {
+    return 'Home - Emergence: Earth';
+}
+add_filter( 'login_headertitle', 'my_login_logo_url_title' );
+
 ?>

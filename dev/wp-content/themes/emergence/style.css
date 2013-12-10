@@ -9,3 +9,8 @@
 */
 
 @import url("../continuum/style.css");
+
+.wpdbp-main-links button {
+	height: 20px !important;
+	width: 40px !important;
+}

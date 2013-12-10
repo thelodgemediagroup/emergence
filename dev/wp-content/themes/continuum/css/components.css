@@ -997,7 +997,6 @@ the feed
 	width:3px;
 	height:46px;
 	background:url(../images/feed-right.png) no-repeat 0px 0px;
-	float:left;
 }
 #feed {
 	height:46px;
@@ -1066,7 +1065,6 @@ the feed
 	height:46px;
 	color:#FFF;
 	float:left;
-	width:119px;
 	background:url(../images/feed-social-bg.png) repeat-x 0px 0px;
 	border-left:1px solid #484848;
 }
@@ -1543,7 +1541,6 @@ border-width:0px;
 
 /*feed-specific sidebar style*/
 #feed-panel-wrapper .right-panel {
-	width:300px;	
 	border-left:1px solid #B5B5B5;	
 	border-bottom:1px solid #B5B5B5;	
 }

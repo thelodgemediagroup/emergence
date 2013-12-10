@@ -34,11 +34,13 @@ $con_latest_num = $con_misc['latest_num'];
         	<?php 
 			$count=0;
 			$cats=explode(",",$con_latest_cats); //setup array of latest categories
+            $cat_ids = array(13,14,15,16);
 			foreach ($cats as $cat) { //loop through each latest category
 				$count++;
-				$catname=trim($cat);				
+				$catname=trim($cat);
+                $catname=str_replace('&','&amp;',$catname);
 				if($catname!="" && $count<=4) {
-					$catid=get_category_id($catname);
+					$catid= $cat_ids[$count - 1];
 					$catlink=get_category_link($catid);
 					?>
                 
@@ -66,9 +68,10 @@ $con_latest_num = $con_misc['latest_num'];
 		$count=0;
 		foreach ($cats as $cat) { //loop through each latest category
 			$count++;
-			$catname=trim($cat);				
+			$catname=trim($cat);
+            $catname=str_replace('&','&amp;',$catname);			
 			if($catname!="" && $count<=4) {
-				$catid=get_category_id($catname);
+				$catid= $cat_ids[$count - 1];
 				$catlink=get_category_link($catid);
 				?>
         
@@ -139,9 +142,10 @@ $con_latest_num = $con_misc['latest_num'];
 			$count=0;
 			foreach ($cats as $cat) { //loop through each latest category
 				$count++;
-				$catname=trim($cat);				
+				$catname=trim($cat);	
+                $catname=str_replace('&','&amp;',$catname);			
 				if($catname!="" && $count<=4) {
-					$catid=get_category_id($catname);
+					$catid= $cat_ids[$count - 1];
 					$catlink=get_category_link($catid);
 					?>
         

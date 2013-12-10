@@ -1227,7 +1227,7 @@ $feed_loop = new WP_Query($feedargs);
 <?php } elseif ($con_feed_layout=="D") { // separate style for layout D ?>
 
     <div id="feed-panel-wrapper">
-        
+
         <div class="latest-wrapper">
                     
             <div class="left-panel"> <!-- begin left panel -->
@@ -1237,7 +1237,7 @@ $feed_loop = new WP_Query($feedargs);
                     <div class="ribbon-inner">
                     
                         <div class="gentesque"><?php echo $con_feed_latest; ?></div>
-                    
+
                     </div>
                     
                 </div> 
@@ -1247,11 +1247,12 @@ $feed_loop = new WP_Query($feedargs);
                 <?php 
 				$catcount=0;
 				$cats=explode(",",$con_feed_latest_cats); //setup array of latest categories
+				$cat_ids = array(13,14,15,16);
 				foreach ($cats as $cat) { //loop through each latest category
 					$catcount++;
 					$catname=trim($cat);
 					if($catname!="") {
-						$catid=get_category_id($catname);
+						$catid= $cat_ids[$catcount -1];
 						$catlink=get_category_link($catid);
 						?>
 						
